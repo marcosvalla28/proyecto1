@@ -1,9 +1,18 @@
 :root {
-    --navColor: #B8001F;
-    --titleColor: #194e86;
-    --fontColor: #23b46b;
-    --buttonColor: #684e52;
-    --section1Color: #f5f5f5;
-    --section2Color: #c2bdbe;
-    --FooterColor: #000000;
+    --tipografiaGeneral: 'Matangi', Cambria;
+    --blueDark: #384b70;
+    --blueGrisMate: #507687;
+    --blueCelesteMate: #7eacb5;
+    --celestePastel: #c5d3e8;
+    --celeste: #7bd3ea;
+    --grisPalido: #a6aebf;
+    --rojoFrancia: #b8001f;
+    --rojoRetro: #c96868;
+    --rosaPastel: #f6d6d6;
+    --amarilloPastel: #f6f7c4;
+    --amarilloPalido: #fff8de;
+    --amarilloRetro: #fadfa1;
+    --hueso: #fff4ea;
+    --verdePastel: #a1eebd;
+    --verdePalido: #d0e8c5;
 }

@@ -1,3 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 h1{
-    font-family: 'Matangi', Cambria;
+    font-family: var(--tipografiaGeneral);
+}
+
+h2{
+    font-family: var(--tipografiaGeneral);
+}
+
+p{
+    font-family: var(--tipografiaGeneral);
+}
+
+a{
+    font-family: var(--tipografiaGeneral);
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    font-family: var(--tipografiaGeneral);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
 }
