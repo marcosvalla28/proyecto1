@@ -28,3 +28,63 @@ body{
     justify-content: center;
     min-height: 100vh;
 }
+
+.bg1{
+    background-color: var(--blueDark);
+}
+
+.bg2{
+    background-color: var(--blueGrisMate);
+}
+
+.bg3{
+    background-color: var(--blueCelesteMate);
+}
+
+.bg4{
+    background-color: var(--celestePastel);
+}
+
+.bg5{
+    background-color: var(--celeste);
+}
+
+.bg6{
+    background-color: var(--grisPalido);
+}
+
+.bg7{
+    background-color: var(--rojoFrancia);
+}
+
+.bg8{
+    background-color: var(--rojoRetro);
+}
+
+.bg9{
+    background-color: var(--rosaPastel);
+}
+
+.bg10{
+    background-color: var(--amarilloPastel);
+}
+
+.bg11{
+    background-color: var(--amarilloPalido);
+}
+
+.bg12{
+    background-color: var(--amarilloRetro);
+}
+
+.bg13{
+    background-color: var(--hueso);
+}
+
+.bg14{
+    background-color: var(--verdePastel);
+}
+
+.bg15{
+    background-color: var(--verdePalido);
+}
