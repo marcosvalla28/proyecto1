@@ -1,0 +1,35 @@
+.tarjeta {
+    transition: transform 0.3s;
+    margin-bottom: 1.5rem;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 2px rgb(5, 5, 119);
+}
+
+.cuerpo-tarjeta {
+    padding: 1rem;
+}
+
+.titulo-tarjeta {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.texto-tarjeta {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.precio {
+    font-weight: bold;
+    color: var(--blueCelesteMate);
+    font-size: 1.2rem;
+}
+
+.encabezado-categoria {
+    color: white;
+    padding: 3rem 0;
+}
+
