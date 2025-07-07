@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    z-index: 99;
+
+}
+
+.logo-navBar{
+    align-self: flex-start;
+    margin-left: 15px;
+    filter: drop-shadow(2px 2px 6px black);
+}
+
+.nav-link{
+    font-weight: bolder;
+    &:hover{
+        color:var(--rojoFrancia)
+    }
+}
