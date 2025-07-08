@@ -2,7 +2,6 @@
 .main-nosotros{
     background-color: var(--celeste);
     text-align: center;
-    max-width :auto;
 }
 .secInfo{
     display: flex; 
@@ -37,8 +36,26 @@
   height: 320px;
   object-fit: cover;
   border-radius: 60%; 
-  border: 4px solid #e63010;
+  border: 4px solid #ff2706;
 }
-.secDevs1{
-    
+
+.secFotos img:hover {
+   transform: scale(1.06);
 }
+.secDevs1-img{
+    display: flex; 
+    justify-content: space-evenly;
+} 
+.secDevs1-p{
+    display: flex;
+    justify-content: space-evenly;
+}  
+.secDevs2-img{
+    display: flex; 
+    justify-content: space-evenly;
+} 
+.secDevs2-p{
+    display: flex;
+    justify-content: space-evenly;
+}  
+
