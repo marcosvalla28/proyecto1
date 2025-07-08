@@ -3,7 +3,8 @@
     justify-content: space-around;
     height: 90px;
     z-index: 99;
-
+    position:fixed;
+    width: 100%;
 }
 
 .logo-navBar{
@@ -17,4 +18,8 @@
     &:hover{
         color:var(--rojoFrancia)
     }
+}
+
+.form-control{
+    width: 80;
 }
