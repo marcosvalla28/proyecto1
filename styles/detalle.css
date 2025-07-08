@@ -34,7 +34,7 @@
     overflow: hidden;
 }
 
-.card-img-top {
+.imagen-producto {
      
     height: 150px;
     object-fit: cover;
@@ -46,7 +46,7 @@
     font-size: 0.85rem;
 }
 
-.card-compactar .card-img-top {
+.card-compactar .imagen-producto {
     height: 150px;
     object-fit: contain;
     object-position: center;
