@@ -24,7 +24,6 @@ a{
 body{
     width: 100%;
     font-family: var(--tipografiaGeneral);
-    display: flex;
     justify-content: center;
     min-height: 100vh;
 }
