@@ -1,7 +1,8 @@
 /* Seccion del texto */
 .main-nosotros{
-    background-color: var(--celeste);
+    background-color: var(--celestePastel);
     text-align: center;
+    width: 100%;
 }
 .secInfo{
     display: flex; 
@@ -36,11 +37,15 @@
   height: 320px;
   object-fit: cover;
   border-radius: 60%; 
-  border: 4px solid #ff2706;
+  border: 4px solid #991602;
 }
 
 .secFotos img:hover {
-   transform: scale(1.06);
+   transform: scale(1.08);
+  box-shadow:  0 4px 10px rgba(0, 0, 0, 0.8); 
+  border-color: #6cbec9;
+  transition: transform 0.4s, box-shadow 0.4s;
+  cursor: pointer;
 }
 .secDevs1-img{
     display: flex; 
@@ -59,3 +64,17 @@
     justify-content: space-evenly;
 }  
 
+.secScrumMaster{
+    margin-top: 100PX;
+}
+
+.secDevs1-img {
+    margin-top: 76PX;
+
+}
+.secDevs2-img {
+    margin-top: 76PX;
+
+}
+
+/* Responsive */
