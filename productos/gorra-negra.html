@@ -18,18 +18,16 @@
   </head>
   <body>
     <main class="py-5">
-      <div class="container">
-        <div class="row mt-4">
+      <div class="container px-4 px-lg-5 my-5">
+        <div class="row gx-4 gx-lg-5 align-items-center">
           <!-- Imágenes -->
-          <div class="col-md-6">
-            <div class="galeria-producto p-3 mb-4">
+            <div class="col-md-6">
               <img
                 src="/img/gorra-negra.jpg"
-                class="img-fluid rounded"
+                class="card-img-top mb-5 mb-md-0"
                 alt="Gorra Negra Clásica"
               />
             </div>
-          </div>
 
           <!-- Información del producto -->
           <div class="col-md-6">
@@ -43,15 +41,11 @@
               <span class="text-muted ms-2">(24 valoraciones)</span>
             </div>
 
-            <div class="mb-4">
-              <span class="precio display-5 text-primary fw-bold">$34.000</span>
-              <span class="text-success ms-2 fw-bold">
-                <i class="fas fa-check"></i> En stock
-              </span>
+            <div class="f5-5 mb-5">
+              <span class="precio-producto">$34000</span>              
             </div>
-
-            <div class="mb-4">
-              <h3>Descripción</h3>
+            <p class="encabezado-producto">
+                <h3>Descripción</h3>
               <p>
                 Gorra negra, comoda y ajustable. Ideal para cualquier
                 ocasión.
@@ -62,9 +56,10 @@
                 <li>Color: Negro</li>
                 <li>Diseño clasico</li>
               </ul>
-            </div>
+            </p>
 
-            <div class="d-grid gap-2 mb-5">
+
+            <div class="d-flex gap-5">
               <button class="btn btn-comprar btn-lg">
                 <i class="fas fa-shopping-cart me-2"></i> Agregar al carrito
               </button>
@@ -80,7 +75,7 @@
         <!-- RESEÑAS -->
 
 
-   <section>
+   <section class="py-5">
   <div class="container my-5 py-5 text-body">
     <div class="row d-flex justify-content-center">
       <div class="col-md-12 col-lg-10 col-xl-8">
