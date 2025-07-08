@@ -19,7 +19,75 @@
 
     
 </head>
-<body>
+<body class="form-body">
+  <div class="form-containter">
+    <form action="register-form">
+    <h1 class="register-form-title">Registrarse</h1>
+
+    <div class="form-row-reg">
+      <div class="form-group-reg">
+        <label for="nombre-persona">Nombre</label>
+        <input type="text" name="nombre-persona" id="nombre-persona">
+      </div>
+
+    <div class="form-group-reg">
+      <label for="apellido-persona">Apellido</label>
+      <input type="text" name="apellido-persona" id="apellido-persona">
+    </div>
+    </div>
+
+    <div class="form-row-reg">
+      <div class="form-group-reg">
+        <label for="nombre-usuario">Nombre de usuario</label>
+        <input type="text" name="nombre-usuario" id="nombre-usuario">
+      </div>
+
+      <div class="form-group-reg">
+        <label for="email-persona">Email</label>
+        <input type="text" name="email-persona" id="email-persona">
+      </div>
+    </div>
+
+    <div class="form-row-reg">
+      <div class="form-group-reg">
+        <label for="telefono-usuario">Teléfono</label>
+        <input type="number" name="telefono-usuario" id="telefono-usuario">
+      </div>
+
+      <div class="form-group-reg">
+        <label for="direccion-persona">Direccion</label>
+        <input type="text" name="direccion-persona" id="direccion-persona">
+      </div>
+    </div>
+
+    <div class="form-row-reg">
+      <div class="form-group-reg">
+        <label for="codigoPostal-persona">Código postal</label>
+        <input type="number" name="codigoPostal-persona" id="codigoPostal-persona" min="3" max="10">
+      </div>
+
+      <div class="form-group-reg">
+        <label for="contraseña-persona">Contraseña</label>
+        <input type="password" name="contraseña-persona" id="contraseña-persona">
+      </div>
+    </div>
+
+    <div class="form-row-reg">
+    <div class="form-group-reg">
+        <label for="foto-perfil" class="file-button">Foto de perfil <i class="fa-solid fa-images"></i></label>
+        <input type="file" id="foto-perfil" style="display:none;" required accept="image/.png, .jpg, .jpeg" title="Seleccione una foto de perfil">
+    </div>
+    </div>
+
+    <div class="form-buttons">
+      <button type="submit" class="submit-button">Enviar</button>
+      <a href="/index.html" class="cancel-button">Cancelar</a>
+    </div>
+
+  </form>
+  </div>
+
+  
 
   
 
