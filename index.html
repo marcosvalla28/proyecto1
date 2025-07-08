@@ -23,18 +23,18 @@
 <body>
   <!--NAVBAR-->
   <header>
-    <nav class="navbar navbar-expand-lg bg-primary-subtle shadow-sm">
+    <nav class="navbar navbar-expand-lg bg-primary-subtle shadow-sm mt-4">
 
       <!--LOGO-->
-        <div class="logo-navBar ">
+        <div class="logo-navBar">
           <a class="navbar-brand" href="#"><img src="/img/logo rc.png" alt="logo-RC" style="width: 150px;"></a>
         </div>
 
         <!--BARRA DE BUSQUEDA-->
-        <form class="d-flex form-floating flex-row-2" role="search">
-          <input class="form-control me-2 flex-grow-2 form-control  " id="buscar" placeholder="buscar" type="search" aria-label="Search"/>
+        <form class="form-border d-flex form-floating flex-row-2" role="search">
+          <input class="form-control form-control-lg agrandar-input " id="buscar" placeholder="buscar" type="search" aria-label="Search"/>
           <label for="buscar">Buscar</label>
-          <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button class="buscar btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
         
         
@@ -42,7 +42,7 @@
 
           <!--boton carrito-->
           <div class="mx-3">
-          <i class="fa-solid fa-cart-shopping fa-xl"></i>
+          <a href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
           </div>
 
           <!--Botón hamburguesa-->
@@ -165,20 +165,24 @@ Dolorem at harum, aliquam incidunt et nesciunt quos deleniti temporibus nulla pa
   
  
 
-  
+  <!-- FOOTER -->
 
-    <footer>
-      <div class="container">
-        <div class="logo">
-
+    <footer class="bg-primary ">
+      <div class="container col-auto d-flex justify-content-between  flex-row-2">
+        <div class="logo-footer d-flex col-3 justify-content-lg-center my-3">
+          <img src="/img/logo_pestaña.png" alt="logo-rc">
         </div>
 
-        <div class="marcas">
-
+        <div class="forma-pago col-4">
+          <i class="fa-solid fa-credit-card fa-9x"></i>
+          
         </div>
 
         <div class="redes">
-
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-github"></i>
         </div>
 
       </div>
