@@ -1,11 +1,7 @@
 .tarjeta {
     transition: transform 0.3s;
     margin-bottom: 1.5rem;
-}
-
-.tarjeta:hover {
-    transform: translateY(-5px);
-    box-shadow: 1px 2px rgb(5, 5, 119);
+    width: 100%;
 }
 
 .cuerpo-tarjeta {
@@ -24,7 +20,7 @@
 
 .precio {
     font-weight: bold;
-    color: var(--blueCelesteMate);
+    color: var(--blueDark);
     font-size: 1.2rem;
 }
 
@@ -33,3 +29,40 @@
     padding: 3rem 0;
 }
 
+.card {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.card-img-top {
+     
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-compactar {
+    max-height: 250px;
+    overflow: hidden;
+    font-size: 0.85rem;
+}
+
+.card-compactar .card-img-top {
+    height: 150px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.card-compactar .card-title {
+    font-size: 0.85rem;
+    margin-bottom: 0.3rem;
+}
+
+.card-compactar .card-text {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-compactar .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
