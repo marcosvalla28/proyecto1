@@ -12,25 +12,27 @@ body{
 
 /*HEADER*/
 .carrito {
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
-    width: 100%;
-    height: 70px;
-    border: 2px solid black;
-    margin-bottom: 20px;
-    box-sizing: border-box;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid black; 
+  margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .titulo {
     flex: 3;
-    padding: 7px;
+    padding-top: 40px;
+    margin-left: 40px;
 }
 
 .cantidad-items {
     flex: 1;
     text-align: right;
-    padding: 12px;
+    padding-top: 40px;
+    margin-right: 40px;
 }
 
 /*PRODUCTOS*/
@@ -45,20 +47,18 @@ body{
 
 .productos{
   display: flex;
-  flex: 3;
+  flex: 4;
   flex-direction: column;
-  border: 1px solid red;
+  border-right: 2px solid black; 
 }
 
 .resumen{
   display: flex;
   flex: 1;
   flex-direction: column;
-  border: 1px solid blue;
 }
 
 .producto{
-  border: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,8 +71,8 @@ body{
 img{
   flex: 1;
   margin-left: 250px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-right: 30px;
   border-radius: 15%;
 }
@@ -101,7 +101,6 @@ img{
   justify-content: center;
 }
 
-
 .cantidad .numero {
   font-size: 18px;
   color: #333;
@@ -109,16 +108,59 @@ img{
   text-align: center;
 }
 
-
-
 .eliminar{
   flex: 1;
   margin-left: 40px;
   border: 1px transparent;
 }
 
+/* RESUMEN DE COMPRA*/
+
+.resumen{
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.resumen h2{
+  font-size: 16px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+.cuenta{
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 14px;
+}
+.cuenta-final{
+  margin-top: 15px;
+  font-size: 16px;  
+}
+.linea sup {
+  font-size: 10px;
+  vertical-align: top;
+}
+.boton-compra {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px 0;
+  background-color:green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+/*
 .cuentas {
   display: flex;
+  position: fixed;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -138,6 +180,11 @@ img{
 .precio-final{
   border-top: 2px solid black;
 }
+
+.resumen p{
+  font-size: x-large;
+  
+} */
 
 
 
