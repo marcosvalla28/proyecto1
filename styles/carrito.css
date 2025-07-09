@@ -64,13 +64,57 @@ body{
   justify-content: center;
 }
 
+.info-producto{
+  flex: 1;
+}
+
 img{
-  margin: 20px;
+  flex: 1;
+  margin-left: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  border-radius: 15%;
+}
+
+.cantidad {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+  height: 50px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  padding: 0 10px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+.cantidad button {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
+.cantidad .numero {
+  font-size: 18px;
+  color: #333;
+  width: 30px;
+  text-align: center;
+}
+
+
+
 .eliminar{
+  flex: 1;
   margin-left: 40px;
+  border: 1px transparent;
 }
 
 .cuentas {
