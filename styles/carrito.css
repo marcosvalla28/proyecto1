@@ -1,0 +1,101 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+.carrito {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    height: 70px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.titulo {
+    flex: 3;
+    padding: 7px;
+}
+
+.cantidad-items {
+    flex: 1;
+    text-align: right;
+    padding: 12px;
+}
+
+/*PRODUCTOS*/
+
+.contenido{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.productos{
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.resumen{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border: 1px solid blue;
+}
+
+.producto{
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  margin: 20px;
+}
+
+
+.eliminar{
+  margin-left: 40px;
+}
+
+.cuentas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cuentas p{
+  text-align: left;
+  width: fit-content;
+  justify-content: center;
+  padding: 10px;
+  
+}
+.cuentas span{
+  text-align: center;
+  margin-left: 50px;
+}
+
+.precio-final{
+  border-top: 2px solid black;
+}
+
+
+
+
+
