@@ -23,17 +23,11 @@ body{
 }
 
 .titulo {
-    flex: 3;
     padding-top: 40px;
     margin-left: 40px;
 }
 
-.cantidad-items {
-    flex: 1;
-    text-align: right;
-    padding-top: 40px;
-    margin-right: 40px;
-}
+
 
 /*PRODUCTOS*/
 
@@ -49,7 +43,6 @@ body{
   display: flex;
   flex: 4;
   flex-direction: column;
-  border-right: 2px solid black; 
 }
 
 .resumen{
@@ -112,79 +105,59 @@ img{
   flex: 1;
   margin-left: 40px;
   border: 1px transparent;
+  background-color: white;
+  font-size: x-large;
 }
 
 /* RESUMEN DE COMPRA*/
 
 .resumen{
-  width: 300px;
+  width: 100%;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: relative;
 }
 .resumen h2{
-  font-size: 16px;
+  font-size: 30px;
   margin-bottom: 15px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 2px solid #eee;
   padding-bottom: 10px;
 }
 .cuenta{
   display: flex;
   justify-content: space-between;
-  margin: 8px 0;
-  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 .cuenta-final{
-  margin-top: 15px;
-  font-size: 16px;  
+  border-top: 2px solid #eee;
+  padding-top: 20px;
+  font-size: 20px;  
+  display: flex;
+  justify-content: space-between;
 }
-.linea sup {
-  font-size: 10px;
-  vertical-align: top;
-}
+
+
 .boton-compra {
   margin-top: 20px;
   width: 100%;
   padding: 10px 0;
-  background-color:green;
-  color: white;
+  background-color:rgb(18, 129, 18);
   border: none;
   border-radius: 6px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
+  color: #333;
   cursor: pointer;
 }
-
-
-/*
-.cuentas {
-  display: flex;
-  position: fixed;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.cuentas p{
-  text-align: left;
-  width: fit-content;
-  justify-content: center;
-  padding: 10px;
-  
-}
-.cuentas span{
-  text-align: center;
-  margin-left: 50px;
+.boton-compra a{
+  color: #333;
 }
 
-.precio-final{
-  border-top: 2px solid black;
-}
 
-.resumen p{
-  font-size: x-large;
-  
-} */
 
 
 
