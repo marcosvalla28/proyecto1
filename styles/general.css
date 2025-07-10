@@ -87,3 +87,8 @@ body{
 .bg15{
     background-color: var(--verdePalido);
 }
+
+.carousel-item{
+    height: 500px;
+    align-items: center;
+}
