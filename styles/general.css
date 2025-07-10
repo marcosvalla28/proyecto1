@@ -24,6 +24,7 @@ a{
 body{
     width: 100%;
     font-family: var(--tipografiaGeneral);
+    justify-content: center;
     min-height: 100vh;
 }
 
@@ -85,4 +86,9 @@ body{
 
 .bg15{
     background-color: var(--verdePalido);
+}
+
+.carousel-item{
+    height: 500px;
+    align-items: center;
 }
