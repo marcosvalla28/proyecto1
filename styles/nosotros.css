@@ -47,34 +47,20 @@
   transition: transform 0.4s, box-shadow 0.4s;
   cursor: pointer;
 }
-.secDevs1-img{
+.secDevs1{
     display: flex; 
     justify-content: space-evenly;
+    font-weight: bolder;
 } 
-.secDevs1-p{
-    display: flex;
-    justify-content: space-evenly;
-}  
-.secDevs2-img{
+.secDevs2{
     display: flex; 
     justify-content: space-evenly;
+    font-weight: bolder;
 } 
-.secDevs2-p{
-    display: flex;
-    justify-content: space-evenly;
-}  
-
 .secScrumMaster{
     margin-top: 100PX;
+    font-weight: bolder;
 }
 
-.secDevs1-img {
-    margin-top: 76PX;
-
-}
-.secDevs2-img {
-    margin-top: 76PX;
-
-}
 
 /* Responsive */
