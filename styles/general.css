@@ -29,63 +29,35 @@ body{
 }
 
 .bg1{
-    background-color: var(--blueDark);
+    background-color: var(--azul);
 }
 
 .bg2{
-    background-color: var(--blueGrisMate);
+    background-color: var(--crema);
 }
 
 .bg3{
-    background-color: var(--blueCelesteMate);
+    background-color: var(--rosaCrema);
 }
 
 .bg4{
-    background-color: var(--celestePastel);
+    background-color: var(--rojo);
 }
 
-.bg5{
-    background-color: var(--celeste);
+.ct1{
+    color: #faf7f3;
 }
 
-.bg6{
-    background-color: var(--grisPalido);
+.ct2{
+    color: #212121;
 }
 
-.bg7{
-    background-color: var(--rojoFrancia);
+.ct3{
+    color: #2a1458;
 }
 
-.bg8{
-    background-color: var(--rojoRetro);
-}
-
-.bg9{
-    background-color: var(--rosaPastel);
-}
-
-.bg10{
-    background-color: var(--amarilloPastel);
-}
-
-.bg11{
-    background-color: var(--amarilloPalido);
-}
-
-.bg12{
-    background-color: var(--amarilloRetro);
-}
-
-.bg13{
-    background-color: var(--hueso);
-}
-
-.bg14{
-    background-color: var(--verdePastel);
-}
-
-.bg15{
-    background-color: var(--verdePalido);
+.ct4{
+    color: #000000;
 }
 
 .carousel-item{
