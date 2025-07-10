@@ -99,3 +99,29 @@
         color: bisque;
     }
 }
+
+/* TABLET*/
+
+@media (max-width:834px){
+
+    /* NAVBAR*/
+    .navbar{
+        display: flex;
+        align-content: center;
+    }
+
+
+    .form-control{
+        display: none;
+    }
+
+    label{
+        display: none;
+    }
+
+    .logo-navBar{
+        order: 2;
+    }
+
+
+}
