@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tienda-RC</title>
-  <link rel="stylesheet" href="/styles/styles.css">
   <link rel="shortcut icon" href="/img/logo_pestaña.png" type="image/x-icon">
 
   <!-- FONT AWESOME -->
@@ -16,23 +15,201 @@
   <!-- BOOTSTRAP -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+  <!--LINK DE CSS-->
+  <link rel="stylesheet" href="/styles/styles.css">
       
 </head>
 <body>
+  <!--NAVBAR-->
+  <header class="mt-2 sticky-top">
 
-  <nav class="bg1">
-    <h1 class="fw-bold text-warning fs-1">Prueba título</h1>
-    <h2 class="text-success fs-3">Prueba Subtítulo</h2>
-    <p class="c15 fs-5">Prueba Texto</p>
-  </nav>
+    <div class="glass pt-2">.</div>
+
+    <nav class="navbar navbar-expand-lg bg-primary-subtle shadow-sm">
+
+      <!--LOGO-->
+         <div class="logo-navBar">
+          <a class="navbar-brand" href="#"><img src="/img/logo rc.png" alt="logo-RC" style="width: 150px;"></a>
+        </div> 
+
+        <!--BARRA DE BUSQUEDA-->
+        <form class="form-border d-flex form-floating flex-row-2" role="search">
+          <input class="form-control form-control-lg agrandar-input " id="buscar" placeholder="buscar" type="search" aria-label="Search"/>
+          <label for="buscar">Buscar</label>
+          <button class="buscar btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        
+        
+        <div class=" d-flex align-items-center">
+
+          <!--boton carrito-->
+          <div class="mx-3">
+          <a href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+          </div>
+
+          <!--Botón hamburguesa-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navContent">
+            <ul class="navbar-nav me-3">
+              <li class="nav-item"><a class="nav-link" href="#">Ingresar</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Registrarme</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Acerca de Nosotros</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+  </header>
+ 
 
 
   
  
 
-  
+  <!-- FOOTER -->
 
-    
+    <footer class=" row">
+      <div class="container col-12 d-flex justify-content-between bg-danger">
+
+        <!-- COLUMNA DE LOGO-->
+        <div class="logo-footer d-flex col-2 justify-content-lg-center m-4 col-md-2 ">
+          <img src="/img/logo_pestaña.png" alt="logo-rc">
+        </div>
+
+        <!--COLUMNA DE REDES SOCIALES-->
+        <div class="redes mt-3 col-md-5 align-content-center justify-content-center text-center">
+          <h2 class="fs-1">Rolling Code</h2>
+
+          <!--INSTAGRAM-->
+          <a href="" class="btn btn-link btn-floating btn-lg text-body m-1"><i class="fab fa-instagram fa-3x"></i></a>
+
+          <!--FACEBOOK-->
+          <a href="" class="btn btn-link btn-floating btn-lg text-body m-1"><i class="fab fa-facebook fa-3x"></i></a>
+
+          <!--LINKEDIN-->
+          <a href="" class="btn btn-link btn-floating btn-lg text-body m-1"><i class="fab fa-linkedin fa-3x"></i></a>
+
+          <!--GITHUB-->
+          <a href="" class="btn btn-link btn-floating btn-lg text-body m-1"><i class="fab fa-github fa-3x"></i></a>
+        </div>
+        
+        <!--COLUMNA DE PRIVACIDAD-->
+        <div class="politica-privacidad mt-3 col-md-3 text-center align-content-center">
+          <h2 class="fw-bolder">Advertencia Legal</h2>
+
+          <!-- POLITICA DE PRIVACIDAD -->
+          <a type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Política de privacidad
+          </a>
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5 col-10" id="staticBackdropLabel">Política de privacidad</h1>
+                  <button type="button" class="btn-close col-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ratione omnis neque quae molestias quos consequuntur, ex dolorum autem ab nulla. Dolorum qui consequuntur illum obcaecati itaque, accusamus aperiam aspernatur.
+                    Dicta eos hic ipsam incidunt, magnam maiores cum esse fugit nam amet? Voluptas dolorem voluptates quidem officia maxime harum, corrupti nobis aperiam, assumenda laudantium natus ratione, omnis totam rerum! Incidunt.
+                    Veritatis, deserunt exercitationem dolore delectus aut corrupti, laborum at harum voluptates asperiores porro. Perferendis veritatis, dolorum iure quisquam sed repellendus ipsa? Alias, ducimus dolore tempore sit illo similique est consequuntur.
+                    Veniam laborum nesciunt sapiente incidunt facere itaque molestias dolorum eligendi repellendus maxime! Animi, dolorum mollitia quae officia, magnam aliquam inventore incidunt aperiam quidem sapiente harum, possimus maxime ratione eligendi est?
+                    Quisquam tempore molestiae fugit laborum neque vitae nisi qui sequi, esse earum provident laudantium ullam voluptas illum architecto dolore, dolores labore similique! Qui earum accusantium nulla aspernatur odio similique magni!
+                    Exercitationem earum dolorem, soluta quam ut reprehenderit necessitatibus iure asperiores, facere ullam et voluptatem veniam, adipisci at aspernatur blanditiis quos. A harum blanditiis dicta laborum sunt. Hic, maxime. Aspernatur, consectetur?
+                    Sunt inventore natus cupiditate vero optio quam illum, distinctio perferendis esse, numquam at odio atque! Quas quibusdam esse, sed possimus provident quos perspiciatis minus excepturi officia eligendi et earum fuga?
+                    Deserunt tempora nisi cumque corrupti dolorum accusantium officiis necessitatibus inventore, obcaecati illum omnis quod numquam neque animi incidunt ipsum delectus fugiat nostrum nobis. Voluptates culpa soluta, voluptatum doloribus harum neque!
+                    Repellat deserunt, animi quaerat similique deleniti facilis nobis temporibus aut fugit odit suscipit in! Ullam voluptatum quasi recusandae. Ipsum molestiae iusto similique quo. Repudiandae, rem pariatur! Commodi vel quo pariatur.
+                    Tempore vitae soluta nulla itaque nemo praesentium maiores maxime. Veritatis ea sint eum perferendis aspernatur dolorem deserunt repudiandae molestias, ab blanditiis! Deleniti sed labore illum? Est suscipit dolore qui aspernatur?
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Acepto</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Política de cookies -->
+          <a type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+            Política de cookies
+          </a>
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5 col-10" id="staticBackdropLabel">Política de cookies</h1>
+                  <button type="button" class="btn-close col-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ratione omnis neque quae molestias quos consequuntur, ex dolorum autem ab nulla. Dolorum qui consequuntur illum obcaecati itaque, accusamus aperiam aspernatur.
+                    Dicta eos hic ipsam incidunt, magnam maiores cum esse fugit nam amet? Voluptas dolorem voluptates quidem officia maxime harum, corrupti nobis aperiam, assumenda laudantium natus ratione, omnis totam rerum! Incidunt.
+                    Veritatis, deserunt exercitationem dolore delectus aut corrupti, laborum at harum voluptates asperiores porro. Perferendis veritatis, dolorum iure quisquam sed repellendus ipsa? Alias, ducimus dolore tempore sit illo similique est consequuntur.
+                    Veniam laborum nesciunt sapiente incidunt facere itaque molestias dolorum eligendi repellendus maxime! Animi, dolorum mollitia quae officia, magnam aliquam inventore incidunt aperiam quidem sapiente harum, possimus maxime ratione eligendi est?
+                    Quisquam tempore molestiae fugit laborum neque vitae nisi qui sequi, esse earum provident laudantium ullam voluptas illum architecto dolore, dolores labore similique! Qui earum accusantium nulla aspernatur odio similique magni!
+                    Exercitationem earum dolorem, soluta quam ut reprehenderit necessitatibus iure asperiores, facere ullam et voluptatem veniam, adipisci at aspernatur blanditiis quos. A harum blanditiis dicta laborum sunt. Hic, maxime. Aspernatur, consectetur?
+                    Sunt inventore natus cupiditate vero optio quam illum, distinctio perferendis esse, numquam at odio atque! Quas quibusdam esse, sed possimus provident quos perspiciatis minus excepturi officia eligendi et earum fuga?
+                    Deserunt tempora nisi cumque corrupti dolorum accusantium officiis necessitatibus inventore, obcaecati illum omnis quod numquam neque animi incidunt ipsum delectus fugiat nostrum nobis. Voluptates culpa soluta, voluptatum doloribus harum neque!
+                    Repellat deserunt, animi quaerat similique deleniti facilis nobis temporibus aut fugit odit suscipit in! Ullam voluptatum quasi recusandae. Ipsum molestiae iusto similique quo. Repudiandae, rem pariatur! Commodi vel quo pariatur.
+                    Tempore vitae soluta nulla itaque nemo praesentium maiores maxime. Veritatis ea sint eum perferendis aspernatur dolorem deserunt repudiandae molestias, ab blanditiis! Deleniti sed labore illum? Est suscipit dolore qui aspernatur?
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Acepto</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Política de calidad -->
+          <a type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+            Política de calidad
+          </a>
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5 col-10" id="staticBackdropLabel">Política de calidad</h1>
+                  <button type="button" class="btn-close col-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ratione omnis neque quae molestias quos consequuntur, ex dolorum autem ab nulla. Dolorum qui consequuntur illum obcaecati itaque, accusamus aperiam aspernatur.
+                    Dicta eos hic ipsam incidunt, magnam maiores cum esse fugit nam amet? Voluptas dolorem voluptates quidem officia maxime harum, corrupti nobis aperiam, assumenda laudantium natus ratione, omnis totam rerum! Incidunt.
+                    Veritatis, deserunt exercitationem dolore delectus aut corrupti, laborum at harum voluptates asperiores porro. Perferendis veritatis, dolorum iure quisquam sed repellendus ipsa? Alias, ducimus dolore tempore sit illo similique est consequuntur.
+                    Veniam laborum nesciunt sapiente incidunt facere itaque molestias dolorum eligendi repellendus maxime! Animi, dolorum mollitia quae officia, magnam aliquam inventore incidunt aperiam quidem sapiente harum, possimus maxime ratione eligendi est?
+                    Quisquam tempore molestiae fugit laborum neque vitae nisi qui sequi, esse earum provident laudantium ullam voluptas illum architecto dolore, dolores labore similique! Qui earum accusantium nulla aspernatur odio similique magni!
+                    Exercitationem earum dolorem, soluta quam ut reprehenderit necessitatibus iure asperiores, facere ullam et voluptatem veniam, adipisci at aspernatur blanditiis quos. A harum blanditiis dicta laborum sunt. Hic, maxime. Aspernatur, consectetur?
+                    Sunt inventore natus cupiditate vero optio quam illum, distinctio perferendis esse, numquam at odio atque! Quas quibusdam esse, sed possimus provident quos perspiciatis minus excepturi officia eligendi et earum fuga?
+                    Deserunt tempora nisi cumque corrupti dolorum accusantium officiis necessitatibus inventore, obcaecati illum omnis quod numquam neque animi incidunt ipsum delectus fugiat nostrum nobis. Voluptates culpa soluta, voluptatum doloribus harum neque!
+                    Repellat deserunt, animi quaerat similique deleniti facilis nobis temporibus aut fugit odit suscipit in! Ullam voluptatum quasi recusandae. Ipsum molestiae iusto similique quo. Repudiandae, rem pariatur! Commodi vel quo pariatur.
+                    Tempore vitae soluta nulla itaque nemo praesentium maiores maxime. Veritatis ea sint eum perferendis aspernatur dolorem deserunt repudiandae molestias, ab blanditiis! Deleniti sed labore illum? Est suscipit dolore qui aspernatur?
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Acepto</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+
+      <div class="text-center px-4 fw-bolder bg-danger bg-gradient">
+        <p>© 2025 Copyright: <a class="fw-bolder text-dark" href="https://rollingcode.co/" target="_blank">RollingCode</a></p>
+      </div>
+
+    </footer>
 
 
   <!-- AOS -->
