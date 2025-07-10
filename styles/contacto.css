@@ -1,0 +1,9 @@
+/* Esta es la parte del iframe con la direccion */
+.SecIframe-Direc{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    margin-top: 30px;
+
+}
