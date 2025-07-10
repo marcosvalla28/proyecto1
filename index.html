@@ -3,20 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tienda-RC</title>
-    <link rel="stylesheet" href="/styles/styles.css" />
-    <link
-      rel="shortcut icon"
-      href="/img/logo_pestaña.png"
-      type="image/x-icon"
-    />
+    <title>Ecommerce-RRCS</title>
 
-    <!-- FONT AWESOME -->
+    <!--LINK FONTAWESOME-->
     <script
-      src="https://kit.fontawesome.com/19234b276d.js"
+      src="https://kit.fontawesome.com/669e6e4912.js"
       crossorigin="anonymous"
     ></script>
-
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
@@ -32,180 +25,156 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-dark fixed-top bg-dark bg-opacity-30 shadow-sm">
-      <div class="container-lg">
-        <a href="/index.html" class="navbar-brand fuchsia-text fw-bold fs-4"
-          >Juan Garcia</a
-        >
+    <section class="categories-section py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Nuestros Productos</h2>
+        <div class="row g-4 mb-4 justify-content-center">
 
-        <div class="dropdown">
-          <button
-            class="btn btn-fuchsia px-3"
-            type="button"
-            id="dropdownMenuButton1"
-            data-bs-toggle="dropdown"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-          <button id="toggleMode" class="btn btn-outline-light p-6 border-0">
-            ☀️
-          </button>
-          <ul
-            class="dropdown-menu dropdown-menu-end bg-dark bg-opacity-30"
-            aria-labelledby="dropdownMenuButton1"
-          >
-            <li>
-              <a href="#home" class="dropdown-item fuchsia-text">Home</a>
-            </li>
-            <li>
-              <a href="#acercade" class="dropdown-item fuchsia-text"
-                >Acerca De</a
-              >
-            </li>
-            <li>
-              <a href="#servicios" class="dropdown-item fuchsia-text"
-                >Servicios</a
-              >
-            </li>
-            <li>
-              <a href="#portfolio" class="dropdown-item fuchsia-text"
-                >Portfolio</a
-              >
-            </li>
-            <li>
-              <a href="#reseñas" class="dropdown-item fuchsia-text">Reseñas</a>
-            </li>
-            <li>
-              <a href="#contacto" class="dropdown-item fuchsia-text"
-                >Contacto</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <main>
-      <section class="py-5">
-        <div class="container px-4 px-lg-5 my-5">
-          <h2>Nuestros Productos</h2>
-          <div class="row gx-4 gx-lg-5 align-items-center ">
-            <!-- producto 1 -->
-            <div class="col-md-6">
-              <div class="card card-compactar">
-                <img
-                  src="/img/img-productos/gorra-negra.jpg"
-                  class="imagen-producto"
-                  alt="Producto 1"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Gorras</h5>
-                  <p class="card-text">Gorras bla bla.</p>
-                  <a href="/categorias/gorras.html" class="btn btn-primary"
-                    >Ver más</a
-                  >
-                </div>
+          
+          <!-- Gorras -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card category-card h-100 border-0 shadow-sm">
+              <img
+                src="/img/img-productos/gorra-negra.jpg"
+                class="card-img-top"
+                alt="Gorras"
+              />
+              <div class="card-body pt-0 text-center">
+                <h5 class="card-title mb-2">Gorras</h5>
+                <p class="card-text text-muted small mb-3">
+                  Estilo urbano para todo momento
+                </p>
+                <a
+                  href="/categorias/gorras.html"
+                  class="btn btn-outline-primary btn-sm"
+                  >Ver categoría</a
+                >
               </div>
             </div>
-            <!-- producto 2 -->
-            <div class="col-md-6">
-              <div class="card card-compactar">
-                <img
-                  src="/img/img-productos/remera.jpg"
-                  class="imagen-producto"
-                  alt="Producto 1"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Remeras</h5>
-                  <p class="card-text">Gorras bla bla.</p>
-                  <a href="/categorias/remeras.html" class="btn btn-primary">Ver más</a>
-                </div>
+          </div>
+
+          <!-- Remeras -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card category-card h-100 border-0 shadow-sm">
+              <img
+                src="/img/img-productos/remera.jpg"
+                class="card-img-top"
+                alt="Remeras"
+              />
+              <div class="card-body pt-0 text-center">
+                <h5 class="card-title mb-2">Remeras</h5>
+                <p class="card-text text-muted small mb-3">
+                  Diseños exclusivos y comodos
+                </p>
+                <a
+                  href="/categorias/remeras.html"
+                  class="btn btn-outline-primary btn-sm"
+                  >Ver categoria</a
+                >
               </div>
             </div>
+          </div>
 
-            <!-- producto 3 -->
-            <div class="col-md-6">
-              <div class="card card-compactar">
-                <img
-                  src="/img/img-productos/perifericos.jpg"
-                  class="imagen-producto"
-                  alt="Producto 1"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Perifericos</h5>
-                  <p class="card-text">Los mejores diseños para gamers.</p>
-                  <a href="/categorias/gorras.html" class="btn btn-primary"
-                    >Ver más</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <!-- producto 4 -->
-            <div class="col-md-6">
-              <div class="card card-compactar">
-                <img
-                  src="/img/img-productos/bazar.jpg"
-                  class="imagen-producto"
-                  alt="Producto 1"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Bazar</h5>
-                  <p class="card-text">La ultima moda en vasos y termos.</p>
-                  <a href="/categorias/gorras.html" class="btn btn-primary"
-                    >Ver más</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <!-- producto 5 -->
-            <div class="col-md-6">
-              <div class="card card-compactar">
-                <img
-                  src="/img/img-productos/libros.jpg"
-                  class="imagen-producto"
-                  alt="Producto 1"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Libreria</h5>
-                  <p class="card-text">Estudia con el mejor estilo.</p>
-                  <a href="/categorias/gorras.html" class="btn btn-primary"
-                    >Ver más</a
-                  >
-                  
-                </div>
-              </div>
-            </div>
-
-            <!-- producto 6 -->
-            <div class="col-md-6">
-              <div class="card card-compactar">
-                <img
-                  src="/img/img-productos/mochila.jpg"
-                  class="imagen-producto"
-                  alt="Producto 1"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Mochilas</h5>
-                  <p class="card-text">Las mejores del mercado.</p>
-                  <a href="/categorias/gorras.html" class="btn btn-primary"
-                    >Ver más</a
-                  >
-                </div>
+          <!-- Perifericoss -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card category-card h-100 border-0 shadow-sm">
+              <img
+                src="/img/img-productos/perifericos.jpg"
+                class="card-img-top"
+                alt="Periféricos"
+              />
+              <div class="card-body pt-0 text-center">
+                <h5 class="card-title mb-2">Perifericos</h5>
+                <p class="card-text text-muted small mb-3">
+                  Los mejores para gamers
+                </p>
+                <a
+                  href="/categorias/perifericos.html"
+                  class="btn btn-outline-primary btn-sm"
+                  >Ver categoria</a
+                >
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
 
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+        <!-- Segunda fila -->
+        <div class="row g-4 justify-content-center">
+          <!-- Bazar -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card category-card h-100 border-0 shadow-sm">
+              <img
+                src="/img/img-productos/bazar.jpg"
+                class="card-img-top"
+                alt="Bazar"
+              />
+              <div class="card-body pt-0 text-center">
+                <h5 class="card-title mb-2">Bazar</h5>
+                <p class="card-text text-muted small mb-3">
+                  Última moda en vasos y termos
+                </p>
+                <a
+                  href="/categorias/bazar.html"
+                  class="btn btn-outline-primary btn-sm"
+                  >Ver categoría</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Librería -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card category-card h-100 border-0 shadow-sm">
+              <img
+                src="/img/img-productos/libros.jpg"
+                class="card-img-top"
+                alt="Librería"
+              />
+              <div class="card-body pt-0 text-center">
+                <h5 class="card-title mb-2">Librería</h5>
+                <p class="card-text text-muted small mb-3">
+                  Estudia con el mejor estilo
+                </p>
+                <a
+                  href="/categorias/libreria.html"
+                  class="btn btn-outline-primary btn-sm"
+                  >Ver categoría</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Mochilas -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card category-card h-100 border-0 shadow-sm">
+              <img
+                src="/img/img-productos/mochila.jpg"
+                class="card-img-top"
+                alt="Mochilas"
+              />
+              <div class="card-body pt-0 text-center">
+                <h5 class="card-title mb-2">Mochilas</h5>
+                <p class="card-text text-muted small mb-3">
+                  Las mejores del mercado
+                </p>
+                <a
+                  href="/categorias/mochilas.html"
+                  class="btn btn-outline-primary btn-sm"
+                  >Ver categoría</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
