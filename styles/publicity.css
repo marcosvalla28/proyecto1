@@ -46,5 +46,20 @@ padding: 10px;
     font-weight: bold;
     text-decoration: none;
 }
+.icon_contacto{
+position: fixed;
+width: 70px;
+bottom: 2%;
+left: 4%;
+transition: all .2s ease;
+z-index: 99;
+opacity: 60%;
+&:hover{
+    cursor: pointer;
+    filter: drop-shadow(0 0 3px black);
+    transform: rotate(10deg);
+    opacity: 100%;
+}
+}
 
 
