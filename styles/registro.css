@@ -7,7 +7,7 @@
     background-size: cover;
     /* font-weight: bolder; */
     color: var(--colorFormBody);
-    background: url(/img/bg-logo-registro.jpeg) repeat;
+    background: url(/img/Logos/bg-logo-registro.jpeg) repeat;
 }
 
 .form-containter{
