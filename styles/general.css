@@ -24,48 +24,54 @@ a{
 body{
     width: 100%;
     font-family: var(--tipografiaGeneral);
+
     justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+
     min-height: 100vh;
 }
 
+main{
+flex-grow: 1
+}
+
 .bg1{
-    background-color: var(--blueDark);
+    background-color: var(--azul);
 }
 
 .bg2{
-    background-color: var(--blueGrisMate);
+    background-color: var(--crema);
 }
 
 .bg3{
-    background-color: var(--blueCelesteMate);
+    background-color: var(--rosaCrema);
 }
 
 .bg4{
-    background-color: var(--celestePastel);
+    background-color: var(--rojo);
 }
 
-.bg5{
-    background-color: var(--celeste);
+.ct1{
+    color: #faf7f3;
 }
 
-.bg6{
-    background-color: var(--grisPalido);
+.ct2{
+    color: #212121;
 }
 
-.bg7{
-    background-color: var(--rojoFrancia);
+.ct3{
+    color: #2a1458;
 }
 
-.bg8{
-    background-color: var(--rojoRetro);
+.ct4{
+    color: #000000;
 }
 
-.bg9{
-    background-color: var(--rosaPastel);
-}
-
-.bg10{
-    background-color: var(--amarilloPastel);
+.carousel-item{
+    height: 500px;
+    align-items: center;
 }
 
 .bg11{
@@ -87,7 +93,3 @@ body{
 .bg15{
     background-color: var(--verdePalido);
 }
-
-
-
-/* footer */
