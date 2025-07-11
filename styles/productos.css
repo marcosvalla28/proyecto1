@@ -1,0 +1,41 @@
+.calificacion {
+  color: #ffc107;
+}
+
+.galeria-producto {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+.encabezado {
+  font-weight: bold;
+  font-size: 1.2rem;
+  
+}
+
+.btn-comprar {
+  background-color: rgb(16, 161, 16);
+  color: rgb(15, 2, 2);
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.seccion-comentarios {
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 20px;
+}
+
+.precio {
+  font-weight: bold;
+  color: green;
+}
+
+.reseñas-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.link-muted { color: #aaa; } .link-muted:hover { color: #1266f1; }
+
