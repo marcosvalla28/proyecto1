@@ -24,8 +24,13 @@ a{
 body{
     width: 100%;
     font-family: var(--tipografiaGeneral);
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
+}
+
+main{
+flex-grow: 1
 }
 
 .bg1{
