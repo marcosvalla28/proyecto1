@@ -73,23 +73,3 @@ flex-grow: 1
     height: 500px;
     align-items: center;
 }
-
-.bg11{
-    background-color: var(--amarilloPalido);
-}
-
-.bg12{
-    background-color: var(--amarilloRetro);
-}
-
-.bg13{
-    background-color: var(--hueso);
-}
-
-.bg14{
-    background-color: var(--verdePastel);
-}
-
-.bg15{
-    background-color: var(--verdePalido);
-}

@@ -16,13 +16,22 @@
 .logo-navBar{
     margin-top: 30px;
     margin-left: 15px;
+    margin-bottom: 25px;
     filter: drop-shadow(2px 2px 6px black);
 }
 
 .nav-link{
+    font-size: x-large;
     font-weight: bolder;
     &:hover{
-        color:var(--rojoFrancia)
+        color:var(--crema)
+    }
+}
+
+.carrito-navbar{
+    color:black;
+    &:hover{
+        color:var(--crema)
     }
 }
 
@@ -44,7 +53,7 @@
 }
 
 .form-border{
-    border: 2px solid green;
+    border: 2px solid rgba(255, 255, 255, 0.877);
     border-radius: 10px;
 }
 
@@ -100,26 +109,63 @@
     }
 }
 
+@media (max-width:1280px){
+    .nav-link{
+        font-size:medium;
+    }
+}
+
+
+
 /* TABLET*/
 
 @media (max-width:834px){
 
     /* NAVBAR*/
+
+
+    .nav-link{
+        font-size: large;
+        &:hover{
+            color: rgba(0, 0, 0, 0.429);
+        }
+    }
     .navbar{
         display: flex;
         align-content: center;
     }
 
-
-    .form-control{
+    .barra-busqueda{
         display: none;
     }
 
-    label{
-        display: none;
+    .form-canvas{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
     }
 
+    .nav-item{
+        text-align: center;
+        border: 2px solid; 
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 10px;
+        &:hover{
+            border: none;
+            background-color: burlywood;
+        }
+    }
+
+    .logo-navBar{
+        order: 2;
+    }
     
+    .carrito-compra{
+        order: 1;
+    }
 
+    .menu-navbar{
+        order: 3;
+    }
 
 }
