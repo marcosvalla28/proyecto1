@@ -43,6 +43,12 @@ img{
     
 }
 
+.peacock{
+    opacity: 10%;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 10s linear infinite;
+}
+
 @keyframes rotate {
   from {
     transform: rotate(45deg);
@@ -53,4 +59,16 @@ img{
     transform: rotate(-45deg);
     transition: transform 0.5s ease-in-out;
   }
+}
+
+@keyframes scroll{
+    0%{
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px);
+    }
+
+    100%{
+        -webkit-transform: translateX(-1020px);
+        transform: translateX(-1020px);
+    }
 }
