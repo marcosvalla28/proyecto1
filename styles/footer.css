@@ -1,8 +1,10 @@
 /* ESTA PARTE ES DEL FOOTER*/
 
-.container{
+.contenedor-footer{
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .redes a{
@@ -50,7 +52,49 @@
     }
 }
 
+/* TABLET*/
+
 @media (max-width:834px){
+    .contenedor-footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 400px auto;
+        grid-template-areas: "logo-footer privacidad"
+                             "redes privacidad";
+        gap: 20px
+    }
 
+    .logo-footer{
+        grid-area: logo-footer;
+        
+    }
 
+    .redes{
+        grid-area: redes;
+    }
+
+    .politica-privacidad{
+        grid-area: privacidad;
+        grid-row: span 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* MOBIL */
+
+@media (max-width:480px){
+    .contenedor-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .logo-footer{
+        display: flex;
+        justify-content: center;
+    }
 }
