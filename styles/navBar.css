@@ -10,8 +10,8 @@
 
 .glass {
       backdrop-filter: blur(10px);
-      background-color: rgba(255, 255, 255, 0.2);
-      border: 1px solid rgba(255, 255, 255, 0.3);
+      background-color: #ffffff;
+      border: 1px solid #ffffff;
 }
 
 .logo-navBar{
@@ -57,7 +57,7 @@
 /* ESTA PARTE ES DEL FOOTER*/
 
 body{
-    background-color: #EDEDED;
+    background-color: #ffffff;;
     overflow-x: hidden;
 }
 .container{

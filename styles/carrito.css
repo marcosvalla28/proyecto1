@@ -13,7 +13,7 @@ body{
   padding: 0;
   font-family: var(--tipografiaGeneral);
   color: #212529;
-  background-color: #F1F1F1;
+  background-color: #ffffff;;
 }
 
 
@@ -26,7 +26,7 @@ body{
   justify-content: center;
   width: 100%;
   box-sizing: border-box;
-  background-color: #F1F1F1;
+  background-color: #ffffff;;
 }
 
 .productos{
@@ -45,7 +45,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #F1F1F1;
+  background-color: #F5F5F5;
+  border: 1px solid #e0e0e0;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   border-radius: 10px; 
@@ -53,7 +54,6 @@ body{
   height: 350px;
   width: 900px;
   margin-left: 380px;
-  background-color: #FFFFFF;
 }
 .info-producto{
   flex: 1;
@@ -89,7 +89,7 @@ img{
   justify-content: space-between;
   width: 120px;
   height: 50px;
-  border: 1px solid #dcdcdc;
+  border: 1px solid #ffffff;;
   border-radius: 8px;
   padding: 0 10px;
   box-shadow: 0 0 3px rgba(0,0,0,0.1);
@@ -127,7 +127,7 @@ img{
   padding: 4px;
   cursor: pointer;
   border: 1px transparent;
-  background-color: white;
+  background-color: #F5F5F5;
   font-size: x-large;
 }
 .eliminar:hover{
@@ -147,7 +147,7 @@ img{
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 120px;
-  background-color: #f9f9f9;
+  background-color: #f5f5f5;
 }
 
 .resumen h2{
