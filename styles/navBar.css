@@ -113,7 +113,7 @@ body{
 
 /* TABLET*/
 
-@media (max-width:834px){
+@media (max-width:1042px){
 
     /* NAVBAR*/
     .navbar{
@@ -129,8 +129,4 @@ body{
     label{
         display: none;
     }
-
-    
-
-
 }
