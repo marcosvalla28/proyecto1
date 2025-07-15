@@ -15,7 +15,7 @@
     animation-direction: alternate;
 }
 
-h1{
+.contenido-error-t1{
     font-family:'Courier New', Courier, monospace;
     font-size: 60px;
     font-weight: bold;
@@ -23,7 +23,7 @@ h1{
     justify-self: center;
 }
 
-h3{
+.contenido-error-t3{
     font-family:'Courier New', Courier, monospace;
     font-weight:bold;
     font-size: 30px;
@@ -32,7 +32,7 @@ h3{
     margin-bottom: 50px;
 }
 
-p{
+.contenido-error{
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 20px;
