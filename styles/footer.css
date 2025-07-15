@@ -60,25 +60,32 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 400px auto;
         grid-template-areas: "logo-footer privacidad"
-                             "redes privacidad";
+                             " redes        redes";
         gap: 20px
     }
 
     .logo-footer{
         grid-area: logo-footer;
-        
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
     }
 
     .redes{
         grid-area: redes;
+        margin-bottom: 20px;
     }
 
     .politica-privacidad{
         grid-area: privacidad;
-        grid-row: span 2;
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .foto-footer{
+        width: 250px;
+        height: 250px;
     }
 }
 
