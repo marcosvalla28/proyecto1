@@ -3,11 +3,13 @@
 display: flex;
 justify-content: center;
 width: 100%;
+margin: 60px;
 }
 .formConsultas{
-    border: 3px solid rgb(201, 53, 53);
+    border: 3px solid rgb(100, 78, 78);
     border-radius: 15px;
     padding: 20px;
+    background-color: rgb(156, 163, 163) ;
 }
 
 .formConsultas .tituloConsultas{
@@ -19,6 +21,35 @@ width: 100%;
   height: 220px;
   resize: none;
 }
+.tituloConsultas{
+    font-weight: bolder;
+}
+.botonesConsultas{
+    display: flex;
+    justify-content: space-between;
+}
+.botonesConsultas a{
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+.botonesConsultas  .botonEnviar{
+    &:hover{
+        color: rgb(115, 226, 93);
+        transform: scale(1.2);
+    transition: transform 0.3s, box-shadow 0.4s;
+    cursor: pointer;
+    }
+}
+.botonesConsultas  .botonCancelar{
+    &:hover{
+        color: rgb(206, 25, 19);
+        transform: scale(1.2);
+    transition: transform 0.3s, box-shadow 0.4s;
+    cursor: pointer;
+    }
+}
+
 
 
 
@@ -26,6 +57,7 @@ width: 100%;
 .redesContacto{
     justify-content: center;
     text-align: center;
+    margin: 60px;
 }
 .redesContacto a{
     &:hover {
@@ -44,7 +76,8 @@ width: 100%;
     justify-content: center;
     flex-direction: row-reverse;
     gap: 60px;
-    margin-top: 30px;
+    margin-top: 60px;
+
 }
 
 .Info-dire{
