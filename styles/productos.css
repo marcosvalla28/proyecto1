@@ -60,3 +60,7 @@ a .fa-heart {
   height: 100px;
   object-fit: cover;
 }
+
+.borde-card {
+  border-bottom: 1px solid black;
+}
