@@ -24,8 +24,8 @@
 
        
         <form class="formularioPreguntas">
-          <div class="formConsultas col-lg-6">
-            <h1 class="tituloConsultas">Consultas</h1>
+          <div class="formConsultas col-lg-3 col-md-8">
+              <h1 class="tituloConsultas">Consultas</h1>
               <div class="form-group-reg form-floating py-2">
                 <input type="text" name="nombre-usuario" id="nombre-usuario" class="form-control" placeholder="">
                 <label for="nombre-usuario">Nombre </label>
@@ -40,6 +40,11 @@
                 <textarea class="form-control" id="mensaje" name="mensaje" placeholder="" ></textarea>
               <label for="mensaje" class="form-label">Escribí tu consulta:</label>
               </div>
+
+              <div class="botonesConsultas">
+                <a href="/index.html" class="botonCancelar">Cancelar</a>
+                <button type="submit" class="botonEnviar+">Enviar</button>
+              </div>  
           </div>
 
       </form>

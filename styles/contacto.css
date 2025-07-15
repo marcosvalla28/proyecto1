@@ -4,6 +4,16 @@ display: flex;
 justify-content: center;
 width: 100%;
 }
+.formConsultas{
+    border: 3px solid rgb(201, 53, 53);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.formConsultas .tituloConsultas{
+    display: flex;
+   justify-content: center;
+}
 .formConsultas .texareaConsulta textarea{
 width: 100%;
   height: 220px;
