@@ -61,7 +61,7 @@
 
 /* DESKTOP*/
 
-@media (max-width:1280px){
+@media (max-width:1480px){
     .nav-link{
         font-size:medium;
     }
@@ -141,11 +141,63 @@
 /* MOBILE */
 
 @media (max-width:480px){
-    .carrito-navbar{
-        font-size:larger;
-    }
+    .producto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
 
-    .menu-toggler{
-        font-size: larger;
-    }
+.imagen {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 9px;
+  flex-shrink: 0;
+}
+
+.info-producto {
+  /* mantén tu estilo actual */
+}
+
+.acciones {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.cantidad {
+  width: 120px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 0 10px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+.eliminar {
+  cursor: pointer;
+  font-size: x-large;
+  background-color: white;
+  border: none;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+.eliminar:hover, .cantidad button:hover {
+  transform: scale(1.3);
+}
 }

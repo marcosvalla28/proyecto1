@@ -87,6 +87,14 @@ main {
   color: #10A110;
 }
 
+.acciones {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 75px;
+  margin-top: 10px;
+}
+
 .cantidad {
   display: flex;
   flex: 50px;
@@ -308,7 +316,9 @@ main {
   color: #333;
 }
 
-
+.boton-reco{
+  display: none;
+}
 
 
 
@@ -317,4 +327,139 @@ main {
 
 /* MEDIA QUERIES */
 
+
+
+      /* DESKTOP*/
+@media (max-width: 1480px){
+
+  .container-productos {
+    margin-bottom: 20px;
+    margin-left: 60px;
+    max-width: 600px
+  }
+  .resumen{
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .recomendaciones{
+    display: none;
+  }
+
+}
+
+
+        /* TABLET*/
+@media (max-width:991px){
+  main {
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  .container-productos {
+    margin-top: 70px;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+  .resumen {
+    position: sticky;
+    top: 20px; /* importante que sea un valor pequeño para que se vea en móviles */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 95%;
+    padding: 15px;
+  }
+
+  .recomendaciones {
+    display: none;
+  }
+}
+
+    /* MOBILE */
+@media (max-width:480px){
+
+  main {
+    flex-direction: column;
+    overflow-x: hidden;
+    padding: 0 10px; /* un poco de padding lateral */
+  }
+
+  .container-productos {
+    margin: 20px 0 10px 0;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+
+  }
+
+  .resumen {
+    position: sticky; /* o relative si sticky da problemas */
+    top: 10px;
+    margin: 10px 0;
+    max-width: 100%;
+    padding: 10px 15px;
+    height: auto; /* para que se adapte al contenido */
+    border-radius: 6px;
+  }
+
+  .resumen h2 {
+    font-size: 24px;
+  }
+
+  .cuenta, .cuenta-final {
+    font-size: 18px;
+  }
+
+  .boton-compra, .seguir-comprando {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  
+  /* Opcional: que las imágenes sean más chicas */
+  .producto {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+  }
+  
+  .imagen {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .info-producto {
+    margin-left: 0;
+  }
+  .acciones {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.eliminar {
+  background-color: white;
+  border: none;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+.eliminar:hover {
+  transform: scale(1.2);
+}
+
+}
 
