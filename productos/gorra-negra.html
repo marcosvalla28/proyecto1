@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gorra Negra</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <header class="sticky-top">
+      <div class="glass pt-2">.</div>
+      <nav class="navbar navbar-expand-lg bg-primary-subtle shadow-sm">
+        <!--LOGO-->
+        <div class="logo-navBar">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="/img/Logos/logo rc png.png"
+              alt="logo-RC"
+              style="width: 150px"
+          /></a>
+        </div>
+
+        <!--BARRA DE BUSQUEDA-->
+        <div
+          class="barra-busqueda form-border d-flex form-floating"
+          role="search"
+        >
+          <input
+            class="form-control form-control-lg agrandar-input"
+            id="buscar"
+            placeholder="buscar"
+            type="search"
+            aria-label="Search"
+          />
+          <label class="py-1" for="buscar">Buscar</label>
+          <button class="buscar btn btn-outline-success" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="d-flex align-items-center">
+          <!--boton carrito-->
+          <div class="mx-3">
+            <a href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+          </div>
+
+          <!--Botón hamburguesa-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navContent"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navContent">
+            <ul class="navbar-nav me-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ingresar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/registro.html">Registrarme</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/nosotros.html">Acerca de Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="py-5">
+      <div class="container px-4 my-2">
+        <div class="row align-items-center">
+          <!-- Imágenes -->
+          <div class="col-md-6">
+            <div class="card">
+              <img
+                src="/img/merch_img/gorra_negra.jpeg"
+                alt="Gorra Premium"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <!-- Información del producto -->
+          <div class="col-md-6 ps-md-5">
+            <h1 class="font-bold mb-3">Gorra Negra</h1>
+            <div class="calificacion mb-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span class="text-muted">(24 valoraciones)</span>
+            </div>
+
+            <h3>Descripción</h3>
+            <p>Comoda y ajustable. Ideal para cualquier ocasión.</p>
+            <ul>
+              <li>Material: Algodón premium</li>
+              <li>Ajuste: regulable</li>
+              <li>Color: Negro</li>
+              <li>Diseño clasico</li>
+            </ul>
+            <div class="mt-4 mb-4">
+              <span class="precio">$37000</span>
+            </div>
+
+            <div class="d-flex gap-3">
+              <select name="carrito" id="carrito" class="h-40 p-2 border">
+                <option value="0" disabled selected>Elegir cantidad</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <a href="/carrito.html">
+                <button class="carrito-boton btn btn-comprar">
+                  <i class="fas fa-shopping-cart me-2"></i> Agregar al carrito
+                </button>
+              </a>
+            </div>
+
+            <div class="pt-5">
+              <a href="#">
+                <i class="fa-solid fa-heart fa-2x me-3"></i>
+              </a>
+              <a href="#">
+                <i class="fa-solid fa-chart-simple text-dark fa-2x me-3"></i>
+              </a>
+              <a href="#">
+                <i class="fa-solid fa-envelope text-dark fa-2x me-3"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RESEÑAS -->
+
+      <section class="py-5">
+        <div class="container my-5 py-5 text-body">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-12 col-lg-10 col-xl-8">
+              <h2>(4) Comentarios</h2>
+              <div class="card pt-2 mb-3">
+                <div class="card-body">
+                  <div class="d-flex flex-start">
+                    <img
+                      class="rounded-circle shadow-1-strong me-3"
+                      src="/img/img-productos/reseña-producto1.jpg"
+                      alt="reseña1"
+                      width="40"
+                      height="40"
+                    />
+                    <div class="w-100">
+                      <div
+                        class="d-flex justify-content-between align-items-center mb-3"
+                      >
+                        <h6 class="text-primary fw-bold mb-0">
+                          Marta_Herndz
+                          <span class="text-body ms-2"
+                            >Cuando es la proxima oferta?.</span
+                          >
+                        </h6>
+                        <p class="mb-0">Hace 2 dias</p>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <p class="small mb-0" style="color: #aaa">
+                          <a href="#!" class="link-grey">Responder</a> •
+                        </p>
+                        <div class="d-flex flex-row">
+                          <i class="fas fa-star text-warning me-2"></i>
+                          <i
+                            class="far fa-check-circle"
+                            style="color: #aaa"
+                          ></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="d-flex flex-start">
+                    <img
+                      class="rounded-circle shadow-1-strong me-3"
+                      src="/img/img-productos/reseña-producto2.jpg"
+                      alt="reseñas2"
+                      width="40"
+                      height="40"
+                    />
+                    <div class="w-100">
+                      <div
+                        class="d-flex justify-content-between align-items-center mb-3"
+                      >
+                        <h6 class="text-primary fw-bold mb-0">
+                          Jorgejf
+                          <span class="text-body ms-2"
+                            >Increible, muy buenos precios.</span
+                          >
+                        </h6>
+                        <p class="mb-0">Hace 3 dias</p>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <p class="small mb-0" style="color: #aaa">
+                          <a href="#!" class="link-grey">Responder</a> •
+                        </p>
+                        <div class="d-flex flex-row">
+                          <i class="far fa-check-circle text-primary"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="d-flex flex-start">
+                    <img
+                      class="rounded-circle shadow-1-strong me-3"
+                      src="/img/img-productos/reseña-producto3.jpg"
+                      alt="reseña3"
+                      width="40"
+                      height="40"
+                    />
+                    <div class="w-100">
+                      <div
+                        class="d-flex justify-content-between align-items-center mb-3"
+                      >
+                        <h6 class="text-primary fw-bold mb-0">
+                          mari_delv
+                          <span class="text-body ms-2"
+                            >Lo mejor del mercado sin duda
+                          </span>
+                        </h6>
+                        <p class="mb-0">Hace 3 dias</p>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <p class="small mb-0" style="color: #aaa">
+                          <a href="#!" class="link-grey">Responder</a> •
+                        </p>
+                        <div class="d-flex flex-row">
+                          <i class="fas fa-user-plus" style="color: #aaa"></i>
+                          <i class="far fa-star mx-2" style="color: #aaa"></i>
+                          <i class="far fa-check-circle text-primary"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="d-flex flex-start">
+                    <img
+                      class="rounded-circle shadow-1-strong me-3"
+                      src="/img/img-productos/reseña-producto4.jpg"
+                      alt="reseña4"
+                      width="40"
+                      height="40"
+                    />
+                    <div class="w-100">
+                      <div
+                        class="d-flex justify-content-between align-items-center mb-3"
+                      >
+                        <h6 class="text-primary fw-bold mb-0">
+                          diego_tt23
+                          <span class="text-body ms-2"
+                            ><span class="text-primary">@macky_lones</span>
+                            <span class="text-primary mt-2"
+                              >@rashida_jones</span
+                            >
+                            Gracias
+                          </span>
+                        </h6>
+                        <p class="mb-0">Hace 4 dias</p>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <p class="small mb-0" style="color: #aaa">
+                          <a href="#!" class="link-grey">Responder</a> •
+                        </p>
+                        <div class="d-flex flex-row">
+                          <i class="far fa-check-circle text-primary"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

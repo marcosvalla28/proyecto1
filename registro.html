@@ -19,7 +19,84 @@
 
     
 </head>
-<body>
+<body class="form-body bg3">
+
+  <!-- <h1 class="logo-registro"><img src="/img/logo2-rc.png" alt=""></h1> -->
+  
+  <div class="form-containter" data-aos="flip-up">
+    <form action="register-form">
+
+    <h1 class="register-form-title text-danger fw-bolder">Registrarse</h1>
+
+    <div class="form-row-reg">
+      <div class="form-group-reg form-floating py-2" data-aos="fade-right">
+        <input type="text" name="nombre-persona" id="nombre-persona" class="form-control" placeholder="Tu Nombre">
+        <label for="nombre-persona">Nombre</label>
+      </div>
+
+    <div class="form-group-reg form-floating py-2" data-aos="fade-left">
+      <input type="text" name="apellido-persona" id="apellido-persona" class="form-control" placeholder="Tu Apellido">
+      <label for="apellido-persona">Apellido</label>
+    </div>
+    </div>
+
+    <div class="form-row-reg">
+      <div class="form-group-reg form-floating py-2" data-aos="fade-right">
+        <input type="text" name="nombre-usuario" id="nombre-usuario" class="form-control" placeholder="Tu Usuario">
+        <label for="nombre-usuario">Nombre de usuario</label>
+      </div>
+
+      <div class="form-group-reg form-floating py-2" data-aos="fade-left">
+        <input type="text" name="email-persona" id="email-persona" class="form-control" placeholder="Tu Email">
+        <label for="email-persona">Email</label>
+      </div>
+    </div>
+
+    <div class="form-row-reg">
+      <div class="form-group-reg form-floating py-2" data-aos="fade-right">
+        <input type="number" name="telefono-usuario" id="telefono-usuario" class="form-control" placeholder="Tu Teléfono">
+        <label for="telefono-usuario">Teléfono</label>
+      </div>
+
+      <div class="form-group-reg form-floating py-2" data-aos="fade-left">
+        <input type="text" name="direccion-persona" id="direccion-persona" class="form-control" placeholder="Tu Direccion">
+        <label for="direccion-persona">Direccion</label>
+      </div>
+    </div>
+
+    <div class="form-row-reg">
+      <div class="form-group-reg form-floating py-2" data-aos="fade-right">
+        <input type="number" name="codigoPostal-persona" id="codigoPostal-persona" min="3" max="10" class="form-control" placeholder="Tu CP">
+        <label for="codigoPostal-persona">Código postal</label>
+      </div>
+
+      <div class="form-group-reg form-floating py-2" data-aos="fade-left">
+        <input type="password" name="contraseña-persona" id="contraseña-persona" class="form-control" placeholder="Tu Contraseña">
+        <label for="contraseña-persona">Contraseña</label>
+      </div>
+    </div>
+
+    <!-- <div class="form-row-reg">
+    <div class="form-group-reg">
+        <label for="foto-perfil" class="file-button">Foto de perfil <i class="fa-solid fa-images"></i></label>
+        <input type="file" id="foto-perfil" style="display:none;" required accept="image/.png, .jpg, .jpeg" title="Seleccione una foto de perfil">
+    </div>
+    </div> -->
+
+    <div class="tiene-cuenta">
+                <p class="text-light">¿Ya tienes una cuenta?</p>
+                <a href="/login.html" class="iniciar-sesion-2 fw-bold">Iniciar sesión</a>
+    </div>
+
+    <div class="form-buttons">
+      <a href="/index.html" class="cancel-button">Cancelar</a>
+      <button type="submit" class="submit-button"><a href="/error404.html" class="text-light">Enviar</a></button>
+    </div>
+
+  </form>
+  </div>
+
+  
 
   
 

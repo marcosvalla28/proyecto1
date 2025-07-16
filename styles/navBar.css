@@ -1,0 +1,151 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    z-index: 999;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.glass {
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.logo-navBar{
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    filter: drop-shadow(2px 2px 6px black);
+}
+
+.nav-link{
+    font-size: x-large;
+    font-weight: bolder;
+    &:hover{
+        color:var(--crema)
+    }
+}
+
+.carrito-navbar{
+    color:black;
+    &:hover{
+        color:var(--crema)
+    }
+}
+
+
+.barra-desktop{
+    width: 80;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.buscar{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.agrandar-input{
+    width: 500px;
+    height: 300px;
+}
+
+.form-border{
+    border: 2px solid rgba(255, 255, 255, 0.877);
+    border-radius: 10px;
+}
+
+
+
+/* DESKTOP*/
+
+@media (max-width:1280px){
+    .nav-link{
+        font-size:medium;
+    }
+}
+
+
+
+/* TABLET*/
+
+@media (max-width:884px){
+
+    /* NAVBAR*/
+
+    .nav-link{
+        font-size: large;
+        &:hover{
+            color: rgba(0, 0, 0, 0.429);
+        }
+    }
+    .navbar{
+        display: flex;
+        align-content: center;
+    }
+
+    .barra-busqueda{
+        display: none;
+    }
+
+    .form-canvas{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .nav-item{
+        text-align: center;
+        outline-offset: 2px solid; 
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 10px;
+        &:hover{
+            background-color: burlywood;
+        }
+    }
+
+    .logo-navBar{
+        order: 2;
+    }
+    
+    .carrito-compra{
+        order: 1;
+    }
+
+    .menu-navbar{
+        order: 3;
+    }
+
+    .btn-close:focus {
+  outline: none;
+  box-shadow: none;
+  }
+
+  .navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  .navbar-toggler{
+    border: none;
+    &:hover{
+        filter: drop-shadow(2px 2px 2px black);
+        color: var(--crema);
+    }
+  }
+}
+
+/* MOBILE */
+
+@media (max-width:480px){
+    .carrito-navbar{
+        font-size:larger;
+    }
+
+    .menu-toggler{
+        font-size: larger;
+    }
+}

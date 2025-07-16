@@ -1,18 +1,7 @@
 :root {
     --tipografiaGeneral: 'Matangi', 'Cambria';
-    --blueDark: #384b70;
-    --blueGrisMate: #507687;
-    --blueCelesteMate: #7eacb5;
-    --celestePastel: #c5d3e8;
-    --celeste: #7bd3ea;
-    --grisPalido: #a6aebf;
-    --rojoFrancia: #b8001f;
-    --rojoRetro: #c96868;
-    --rosaPastel: #f6d6d6;
-    --amarilloPastel: #f6f7c4;
-    --amarilloPalido: #fff8de;
-    --amarilloRetro: #fadfa1;
-    --hueso: #fff4ea;
-    --verdePastel: #a1eebd;
-    --verdePalido: #d0e8c5;
+    --azul: #3d74b6;
+    --crema: #fbf5de;
+    --rosaCrema: #eac8a6;
+    --rojo: #dc3b22c0;
 }
