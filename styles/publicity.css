@@ -6,9 +6,10 @@
 .phone-ad{
     display: none;
     position: fixed;
+    margin-top: 125px;
     top: 0;
     left: 0;
- width: 100%;
+    width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 999;
@@ -45,6 +46,7 @@ padding: 10px;
     border-radius: 50%;
     font-weight: bold;
     text-decoration: none;
+    z-index: 9999;
 }
 .icon_contacto{
 position: fixed;
