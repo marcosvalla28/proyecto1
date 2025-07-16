@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.body-index{
+    background: url(/img/Logos/Imagen\ de\ WhatsApp\ 2025-07-15\ a\ las\ 19.47.22_0ffb6f65.jpg);
+}
+
 h1{
     font-family: var(--tipografiaGeneral);
 }
@@ -72,24 +76,4 @@ flex-grow: 1
 .carousel-item{
     height: 500px;
     align-items: center;
-}
-
-.bg11{
-    background-color: var(--amarilloPalido);
-}
-
-.bg12{
-    background-color: var(--amarilloRetro);
-}
-
-.bg13{
-    background-color: var(--hueso);
-}
-
-.bg14{
-    background-color: var(--verdePastel);
-}
-
-.bg15{
-    background-color: var(--verdePalido);
 }
