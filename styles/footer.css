@@ -110,4 +110,9 @@
         width: 150px;
         height: 150px;
     }
+
+    .redes-logo{
+        display: flex;
+        flex-wrap: nowrap;
+    }
 }
