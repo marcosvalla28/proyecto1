@@ -98,6 +98,6 @@ aside img {
 }
 @media (max-width: 460px){
     aside{
-        display: none;/* Quita la publicidad de mobiles */
+        display: none;/* Quita la publicidad de moviles */
     }
 }
