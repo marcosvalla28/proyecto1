@@ -21,7 +21,7 @@
 </head>
 
 
-<body>
+<body class="container-carrito">
 
   <!--NAVBAR-->
   <header class="mt-2 sticky-top">
@@ -54,6 +54,7 @@
               <li class="nav-item d-flex align-items-center"><a class="nav-link" href="#">Ingresar</a></li>
               <li class="nav-item d-flex align-items-center"><a class="nav-link" href="/contacto.html">Contacto</a></li>
               <li class="nav-item d-flex align-items-center"><a class="nav-link" href="/nosotros.html">Acerca de Nosotros</a></li>
+
             </ul>
 
             <!--BARRA DE BUSQUEDA DE TABLET Y MOBILE (ESTA DENTRO DEL BOTON HAMBURGUESA)-->
@@ -73,13 +74,50 @@
     </nav>
   </header>
   <!-- ACA TERMINA EL NAVBAR -->
+  
 
   <!-- EMPIEZA EL CARRITO DE COMPRAS-->
-  <main class="contenido">
+  <main class="main">
 
-    <section class="productos">
+
+      <section class="recomendaciones">
+        <h3>Ofertas para vos para vos</h3>
+        <div class="recomendacion-contenedor">
+          <div class="recomendacion">
+            <img src="/img/merch_img/almohadones.jpeg" alt="Almohadones" class="recomendacion-imagen">
+            <div class="recomendacion-info">
+              <h4>Juego De almohadones...</h4>
+              <p class="recomendacion-precio">$10.0</p>
+            </div>
+          </div>
+          <div class="recomendacion">
+            <img src="/img/merch_img/auric_blancos.jpeg" alt="Ariculares blancos" class="recomendacion-imagen">
+            <div class="recomendacion-info">
+              <h4>Ariculares blancos...</h4>
+              <p class="recomendacion-precio">$10.0</p>
+            </div>
+          </div>
+          <div class="recomendacion">
+            <img src="/img/merch_img/billetera.jpeg" alt="Billetera" class="recomendacion-imagen">
+            <div class="recomendacion-info">
+              <h4>Billetera...</h4>
+              <p class="recomendacion-precio">$10.0</p>
+            </div>
+          </div>
+          <div class="recomendacion">
+            <img src="/img/merch_img/cintos.jpeg" alt="Cintos" class="recomendacion-imagen">
+            <div class="recomendacion-info">
+              <h4>Cintos...</h4>
+              <p class="recomendacion-precio">$10.0</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    <section class="container-productos">
+      
       <div class="producto">
-        <img src="/img/remera celeste.png" alt="Remera celeste" class="imagen">
+        <img src="/img/merch_img/remera_azul.jpeg" alt="Remera celeste" class="imagen">
         <div class="info-producto">
           <h3>Remera</h3>
           <a href="#" class="detalles">Ver mas detalles</a>
@@ -90,11 +128,13 @@
             <button type="button" class="mas"><i class="fa-solid fa-plus"></i></button>
           </div>
         </div>
-        <button class="eliminar"><i class="fa-solid fa-trash"></i></button>
+        <button class="eliminar">
+          <i class="fa-solid fa-trash"></i>
+        </button>
       </div>
 
       <div class="producto">
-        <img src="/img/buzo blanco.png" alt="Buzo blanco" class="imagen">
+        <img src="/img/merch_img/hootie_blanco.jpeg" alt="Buzo blanco" class="imagen">
         <div class="info-producto">
           <h3>Buzo</h3>
           <a href="#" class="detalles">Ver mas detalles</a>
@@ -109,7 +149,7 @@
       </div>
 
       <div class="producto">
-        <img src="/img/mochila negra.png" alt="mochila negra" class="imagen">
+        <img src="/img/merch_img/moch_negra.jpeg" alt="mochila negra" class="imagen">
         <div class="info-producto">
           <h3>Mochila</h3>
           <a href="#" class="detalles">Ver mas detalles</a>
@@ -124,7 +164,7 @@
       </div>
 
       <div class="producto">
-        <img src="/img/taza negra.png" alt="taza negra" class="imagen">
+        <img src="/img/merch_img/taza_negra.jpeg" alt="taza negra" class="imagen">
         <div class="info-producto">
           <h3>Taza</h3>
           <a href="#" class="detalles">Ver mas detalles</a>
@@ -139,7 +179,7 @@
       </div>
 
       <div class="producto">
-        <img src="/img/agenda.png" alt="Agenda" class="imagen">
+        <img src="/img/merch_img/agenda_blanca.jpeg" alt="Agenda" class="imagen">
         <div class="info-producto">
           <h3>Agenda</h3>
           <a href="#" class="detalles">Ver mas detalles</a>
@@ -155,6 +195,7 @@
       </div>
 
     </section>
+
 
     <section class="resumen" >
       <h2>Resumen de compra</h2>
@@ -177,16 +218,15 @@
       <button class="boton-compra"><a href="/error404.html">Comprar</a></button>
 
       <div>
-        <button class="seguir-comprando"><a href="/index.html" class=""><i class="fa-solid fa-left-long"></i>  Seguir comprando</a></button>
+        <button class="seguir-comprando"><a href="/index.html"><i class="fa-solid fa-left-long"></i>  Seguir comprando</a></button>
       </div>
 
     </section>
 
   </main>
+  <!-- TERMINA EL CARRITO-->
 
 
-
-  
   <!-- FOOTER -->
 
     <footer class=" row">
@@ -434,6 +474,9 @@
       </div>
 
     </footer>
+
+  
+  
 
 
       
