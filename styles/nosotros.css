@@ -26,6 +26,19 @@
   margin: 0;
   font-weight: 500;
 }
+.parrafoPresentacion{
+    border: solid 1px;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: antiquewhite;
+    &:hover {
+    transform: scale(1.08);
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.8); 
+    border-color: rgb(27, 27, 27);
+    transition: transform 0.1s, box-shadow 0.1s;
+    
+    }
+}
 
 
 /* Seccion de fotos */
@@ -51,16 +64,30 @@
     display: flex; 
     justify-content: space-evenly;
     font-weight: bolder;
+    margin-bottom: 70px;
 } 
 .secDevs2{
     display: flex; 
     justify-content: space-evenly;
     font-weight: bolder;
+    margin-bottom: 70px;
 } 
 .secScrumMaster{
     margin-top: 100PX;
     font-weight: bolder;
+    margin-bottom: 70px;
 }
 
 
 /* Responsive */
+
+/* TABLETS */
+@media(max-width: 768px){
+    
+}
+
+/* MOBILE */
+
+@media(max-width: 480px){
+    
+}
