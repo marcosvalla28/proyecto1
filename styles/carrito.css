@@ -87,7 +87,7 @@ main {
   color: #10A110;
 }
 
-.acciones {
+.botones-carrito {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -140,7 +140,6 @@ main {
   border: 1px transparent;
   background-color: white;
   font-size: x-large;
-
   height: 25px;
 }
 
@@ -258,7 +257,6 @@ main {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
-
 }
 
 .recomendaciones h3 {
@@ -279,7 +277,6 @@ main {
   margin-bottom: 15px;
   border-bottom:1px solid #dbdbdb;
   padding: 10px;
-
 }
 
 .recomendacion-imagen {
@@ -383,25 +380,23 @@ main {
   main {
     flex-direction: column;
     overflow-x: hidden;
-    padding: 0 10px; /* un poco de padding lateral */
+    padding: 0 15px;
   }
 
   .container-productos {
     margin: 20px 0 10px 0;
     max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
     justify-content: center;
 
   }
 
   .resumen {
-    position: sticky; /* o relative si sticky da problemas */
+    position: sticky;
     top: 10px;
     margin: 10px 0;
     max-width: 100%;
     padding: 10px 15px;
-    height: auto; /* para que se adapte al contenido */
+    height: auto;
     border-radius: 6px;
   }
 
@@ -409,16 +404,22 @@ main {
     font-size: 24px;
   }
 
-  .cuenta, .cuenta-final {
+  .cuenta-final {
+    font-size: 18px;
+  }
+  .cuenta{
     font-size: 18px;
   }
 
-  .boton-compra, .seguir-comprando {
+  .boton-compra{
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  .seguir-comprando {
     font-size: 18px;
     padding: 10px 0;
   }
   
-  /* Opcional: que las imágenes sean más chicas */
   .producto {
     flex-direction: column;
     align-items: flex-start;
@@ -435,7 +436,8 @@ main {
   .info-producto {
     margin-left: 0;
   }
-  .acciones {
+
+  .botones-carrito {
   display: flex;
   justify-content: flex-start;
   align-items: center;
