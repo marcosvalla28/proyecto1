@@ -1,6 +1,6 @@
 /* Seccion del texto */
 .main-nosotros{
-    background-color: var(--celestePastel);
+    background-color: rgb(250, 223, 180);
     text-align: center;
     width: 100%;
 }
@@ -25,14 +25,15 @@
     font-size: medium;
   margin: 0;
   font-weight: 500;
+  font-weight: bold;
 }
 .parrafoPresentacion{
     border: solid 1px;
     border-radius: 12px;
     padding: 10px;
-    background-color: antiquewhite;
+    background-color: rgb(38, 117, 153);
     &:hover {
-    transform: scale(1.08);
+    transform: scale(1.07);
     box-shadow:  0 4px 8px rgba(0, 0, 0, 0.8); 
     border-color: rgb(27, 27, 27);
     transition: transform 0.1s, box-shadow 0.1s;

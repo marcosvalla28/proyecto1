@@ -72,7 +72,7 @@ width: 100%;
     transition: transform 0.4s, box-shadow 0.4s;
     cursor: pointer;
     }
-    margin: 30px;
+    margin-left: 20px;
 }
 /* Esta es la parte del iframe con la direccion */
 .SecIframe-Direc{
