@@ -7,7 +7,6 @@
 .main-logo{
     display: flex;
     font-size: 150px;
-    width: 25%;
     justify-self: center;
     animation-duration: 4s;
     animation-name: rotate;
@@ -67,5 +66,19 @@
     100%{
         -webkit-transform: translateX(-1020px);
         transform: translateX(-1020px);
+    }
+}
+
+/* TABLET*/
+@media (max-width:834px){
+    .main-logo{
+        width: 50%;
+    }
+}
+
+/* MOBIL */
+@media (max-width:480px){
+    .main-logo{
+        width: 75%;
     }
 }

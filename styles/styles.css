@@ -2,12 +2,15 @@
 
 @import "/styles/variables.css";
 @import "/styles/general.css";
+@import "/styles/publicity.css";
 @import "/styles/registro.css";
 @import "/styles/nosotros.css";
 @import "/styles/contacto.css";
 @import "/styles/detalle.css";
 @import "/styles/productos.css";
 @import "/styles/navBar.css";
+@import "/styles/footer.css";
 @import "/styles/slider.css";
 @import "/styles/error.css";
 @import "/styles/login.css";
+

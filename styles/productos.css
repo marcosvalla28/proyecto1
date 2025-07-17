@@ -7,11 +7,31 @@
   border-radius: 0.25rem;
 }
 
+
 .encabezado {
   font-weight: bold;
-  font-size: 1.2rem;
-  
+  font-size: 1.1rem;
+
 }
+
+/* darle color negro default y despues rojo al elemento del fontawesome*/
+
+a .fa-heart {
+  color: rgb(8, 0, 0);
+  &:hover {
+    color: red
+  }
+}
+
+.carrito-boton {
+  background-color: #87e2a1;
+  color: aliceblue;
+  &:hover {
+    color: aliceblue;
+    background-color: rgb(17, 110, 29);
+  }
+}
+
 
 .btn-comprar {
   background-color: rgb(16, 161, 16);
@@ -20,15 +40,19 @@
   padding: 10px 20px;
 }
 
+.titulo-card {
+  font-size: 1.4rem;
+  padding-bottom: 5px;
+}
 .seccion-comentarios {
-  background-color: #f8f9fa;
   border-radius: 0.5rem;
   padding: 20px;
 }
 
 .precio {
   font-weight: bold;
-  color: green;
+  color: rgb(2, 27, 2);
+  font-size: 2.5rem;
 }
 
 .reseñas-img {
@@ -37,5 +61,6 @@
   object-fit: cover;
 }
 
-.link-muted { color: #aaa; } .link-muted:hover { color: #1266f1; }
-
+.borde-card {
+  border-bottom: 1px solid black;
+}
