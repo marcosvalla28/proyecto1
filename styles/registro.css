@@ -100,16 +100,16 @@ button{
     cursor: pointer;
     background-color: rgb(180, 180, 180);
     &:hover{
-        outline: 2px solid orange;
-        background-color: orangered;
+        outline: 2px solid #b4b4b4;
+        background-color: #ee938e;
     }
 }
 
 .submit-button{
     background-color: rgb(180, 180, 180);
     &:hover{
-        outline: 2px solid aqua;
-        background-color:rgb(7, 153, 179);
+        outline: 2px solid #b4b4b4;
+        background-color:#878fbd;
     }
 }
 
