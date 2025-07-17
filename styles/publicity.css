@@ -51,7 +51,7 @@ width: 70px;
 bottom: 2%;
 left: 4%;
 transition: all .2s ease;
-z-index: 99;
+z-index: 9999;
 opacity: 60%;
 &:hover{
     cursor: pointer;
@@ -64,10 +64,10 @@ opacity: 60%;
 
 aside {
   position: absolute; 
-  top: 100px; /* Ajusta la posición vertical del aside */
-  right: 0; /* Lo coloca pegado al lado derecho de la pantalla */
+  top: 100px; 
+  right: 0; 
   width: 20%; 
-  z-index: 999; /* Asegura que esté por encima de otros elementos */
+  z-index: 999; 
   padding: 20px;
   box-sizing: border-box;
 }
@@ -90,14 +90,14 @@ aside img {
 @media (max-width: 768px) {
   aside {
     position: relative; 
-    top: 0; /* Quita posicionamiento superior */
-    right: 0; /* Quita alineación derecha */
-    width: 100%; /* Toma todo el ancho en pantallas pequeñas */
-    margin-top: 20px; /* Espaciado con los elementos superiores */
+    top: 0; 
+    right: 0; 
+    width: 100%; 
+    margin-top: 20px; 
   }
 }
 @media (max-width: 460px){
     aside{
-        display: none;/* Quita la publicidad de moviles */
+        display: none;
     }
 }
