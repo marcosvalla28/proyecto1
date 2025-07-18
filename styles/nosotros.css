@@ -1,6 +1,5 @@
 /* Seccion del texto */
 .main-nosotros{
-    background-color: var(--celestePastel);
     text-align: center;
     width: 100%;
 }
@@ -24,7 +23,20 @@
 .secInfo p{
     font-size: medium;
   margin: 0;
-  font-weight: 500;
+  font-weight: bold;
+}
+.parrafoPresentacion{
+    border: solid 1px;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: rgb(38, 117, 153);
+    &:hover {
+    transform: scale(1.07);
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.8); 
+    border-color: rgb(27, 27, 27);
+    transition: transform 0.1s, box-shadow 0.1s;
+    
+    }
 }
 
 
@@ -51,16 +63,74 @@
     display: flex; 
     justify-content: space-evenly;
     font-weight: bolder;
+    margin-bottom: 70px;
 } 
 .secDevs2{
     display: flex; 
     justify-content: space-evenly;
     font-weight: bolder;
+    margin-bottom: 70px;
 } 
 .secScrumMaster{
     margin-top: 100PX;
     font-weight: bolder;
+    margin-bottom: 70px;
 }
 
 
 /* Responsive */
+
+/* TABLETS */
+@media(max-width: 768px){
+
+    .parrafoPresentacion{
+        padding: 0px;
+        &:hover {
+    transform: none; 
+    transition: none;
+    }
+    }
+    .secInfo p{
+    font-size:medium;
+    width: 300px;
+    height: 120px
+    }
+    .secFotos img{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 60%; 
+    border: 4px solid #991602;
+    }
+    .secFotos img:hover {
+    transform: none; 
+    transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .secDevs1{
+    display: flex; 
+    flex-wrap: wrap;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    } 
+    .secDevs2{
+    display: flex; 
+    flex-wrap: wrap;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    } 
+    .secScrumMaster{
+        margin-top: 100PX;
+        font-weight: bolder;
+        margin-bottom: 30px;
+    }
+
+}
+
+/* MOBILE */
+
+@media(max-width: 480px){
+    
+    
+}
