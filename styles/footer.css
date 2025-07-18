@@ -55,7 +55,7 @@
 
 /* TABLET*/
 
-@media (max-width:834px){
+@media (max-width:1024px){
     .contenedor-footer{
         display: grid;
         grid-template-columns: 1fr 1fr;

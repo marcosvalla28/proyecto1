@@ -62,17 +62,22 @@
 
 /* DESKTOP*/
 
-@media (max-width:1280px){
+@media (max-width:2200px){
     .nav-link{
         font-size:medium;
     }
+
+    .carrito-navbar{
+    font-size:x-large;
+  }
+
 }
 
 
 
-/* TABLET*/
+/* TABLET */
 
-@media (max-width:884px){
+@media (max-width:1024px){
 
     /* NAVBAR*/
 
