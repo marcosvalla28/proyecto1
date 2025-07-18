@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-.body-index{
-    background: url(/img/Logos/Imagen\ de\ WhatsApp\ 2025-07-15\ a\ las\ 19.47.22_0ffb6f65.jpg);
-}
-
 h1{
     font-family: var(--tipografiaGeneral);
 }
@@ -35,47 +31,14 @@ body{
     flex-direction: column;
 
     min-height: 100vh;
-
-overflow-x: hidden;
-}
-
-main{
-flex-grow: 1
-}
-
-.bg1{
-    background-color: var(--azul);
-}
-
-.bg2{
-    background-color: var(--crema);
-}
-
-.bg3{
-    background-color: var(--rosaCrema);
-}
-
-.bg4{
-    background-color: var(--rojo);
-}
-
-.ct1{
-    color: #faf7f3;
-}
-
-.ct2{
-    color: #212121;
-}
-
-.ct3{
-    color: #2a1458;
-}
-
-.ct4{
-    color: #000000;
 }
 
 .carousel-item{
     height: 500px;
     align-items: center;
+}
+
+.slider{
+    border: 1px solid #f3f3f3;
+    border-radius: 20px;
 }
