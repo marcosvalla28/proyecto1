@@ -81,6 +81,10 @@
 
     /* NAVBAR*/
 
+    .header-nav{
+        position: sticky;
+    }
+
     .nav-link{
         font-size: large;
         &:hover{
@@ -147,6 +151,10 @@
 /* MOBILE */
 
 @media (max-width:480px){
+
+    .header-nav{
+        position: sticky;
+    }
 
     .carrito-navbar{
         font-size:larger;
