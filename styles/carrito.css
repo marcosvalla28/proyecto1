@@ -1,14 +1,7 @@
 @import url("variables.css");
 
 
-
-body, html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; 
-}
-
-body{
+.container-carrito{
   display: flex;
   flex-direction: column;
   font-family: var(--tipografiaGeneral);
@@ -24,7 +17,7 @@ body{
 
 
 
-main {
+.main-carrito {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -347,7 +340,7 @@ main {
 
         /* TABLET*/
 @media (max-width:991px){
-  main {
+  .main-carrito {
     flex-direction: column;
     overflow-x: hidden;
   }
@@ -361,7 +354,7 @@ main {
 
   .resumen {
     position: sticky;
-    top: 20px; /* importante que sea un valor pequeño para que se vea en móviles */
+    top: 20px; 
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -377,7 +370,7 @@ main {
     /* MOBILE */
 @media (max-width:480px){
 
-  main {
+  .main-carrito {
     flex-direction: column;
     overflow-x: hidden;
     padding: 0 15px;
