@@ -64,3 +64,9 @@ a .fa-heart {
 .borde-card {
   border-bottom: 1px solid black;
 }
+
+.publicidad-derecha {
+  position: fixed;
+  top: 110px;
+  width: 300px; 
+}
