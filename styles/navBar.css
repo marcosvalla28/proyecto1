@@ -159,10 +159,6 @@
   flex-shrink: 0;
 }
 
-.info-producto {
-  /* mantén tu estilo actual */
-}
-
 .acciones {
   display: flex;
   justify-content: flex-start;
