@@ -40,12 +40,12 @@
 
     <div class="form-row-reg">
       <div class="form-group-reg form-floating py-2">
-        <input required pattern="^(?=.*\d)[a-z0-9._]+$" type="text" name="nombre-usuario" id="nombre-usuario" class="form-control register-form-ctrl" placeholder="Tu Usuario">
+        <input required min="5" maxlength="20" pattern="^(?=.*\d)[a-z0-9._]+$" type="text" name="nombre-usuario" id="nombre-usuario" class="form-control register-form-ctrl" placeholder="Tu Usuario">
         <label for="nombre-usuario" class="registro-label">Nombre de usuario</label>
       </div>
 
       <div class="form-group-reg form-floating py-2">
-        <input type="text" name="email-persona" id="email-persona" class="form-control register-form-ctrl" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="Tu Email">
+        <input type="text" name="email-persona" id="email-persona" class="form-control register-form-ctrl" required minlength="5" maxlength="30" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="Tu Email">
         <label for="email-persona" class="registro-label">Email</label>
       </div>
     </div>
@@ -57,14 +57,14 @@
       </div>
 
       <div class="form-group-reg form-floating py-2">
-        <input type="text" name="direccion-persona" id="direccion-persona" class="form-control register-form-ctrl" required placeholder="Tu Direccion">
+        <input type="text" name="direccion-persona" id="direccion-persona" class="form-control register-form-ctrl" required minlength="5" maxlength="80" pattern="^[a-zA-Z0-9\s.,'#\-\/]{5,200}$" placeholder="Tu Direccion">
         <label for="direccion-persona" class="registro-label">Direccion</label>
       </div>
     </div>
 
     <div class="form-row-reg">
       <div class="form-group-reg form-floating py-2">
-        <input type="number" name="codigoPostal-persona" id="codigoPostal-persona" min="3" max="10" class="form-control register-form-ctrl" required placeholder="Tu CP">
+        <input type="number" name="codigoPostal-persona" id="codigoPostal-persona" min="3" max="10" class="form-control register-form-ctrl" required pattern="^\d{4}$" placeholder="Tu CP">
         <label for="codigoPostal-persona" class="registro-label">Código postal</label>
       </div>
 
