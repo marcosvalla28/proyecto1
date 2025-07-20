@@ -20,6 +20,7 @@
     font-weight: bold;
     color: crimson;
     justify-self: center;
+    text-align: center;
 }
 
 .contenido-error-t3{
@@ -37,6 +38,7 @@
     font-size: 20px;
     color: black;
     justify-self: center;
+    text-align: center;
 }
 
 .peacock{
@@ -80,5 +82,7 @@
 @media (max-width:480px){
     .main-logo{
         width: 75%;
+        margin-top: 10px;
+        margin-bottom: 15px;
     }
 }
