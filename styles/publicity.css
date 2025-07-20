@@ -63,7 +63,7 @@ opacity: 60%;
 
 
 aside {
-  position: absolute; 
+  position: relative; 
   top: 110px; 
   right: 0; 
   width: 100px;
@@ -75,6 +75,12 @@ aside {
   &:hover{
     opacity: 1;
   }
+}
+
+.aside-index{
+  position: fixed;
+  top: 110px;
+  width: 215px;
 }
 
 aside .card {
