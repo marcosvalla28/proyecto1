@@ -23,6 +23,7 @@ a .fa-heart {
   }
 }
 
+
 .carrito-boton {
   background-color: #87e2a1;
   color: aliceblue;
@@ -69,4 +70,44 @@ a .fa-heart {
   position: fixed;
   top: 110px;
   width: 300px; 
+}
+
+
+/* Mobile */
+@media (max-width: 480px) {
+ .publicidad-productos video {
+  width: 100%;
+ }
+ .publicity-phone-products{
+  display: none;
+
+ }
+
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+ .publicity-phone-products{
+  display: none;
+  
+ }
+
+}
+
+/*  Laptop  */
+@media (max-width: 1024px) {
+
+ .publicity-phone-products{
+    display: none;
+
+ }
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+ .publicity-phone-products{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+}
 }
