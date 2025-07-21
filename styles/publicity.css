@@ -96,17 +96,66 @@ aside img {
   height: auto; 
   border-radius: 5px;
 }
+.toggleCheck{
+  display: none;
+}
+.toggleBtn{
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: black;
+  z-index: 9999;
+  cursor: pointer;
+}
 
-
+/* tablet */
 @media (max-width: 768px) {
   aside {
-    position: relative; 
+     position: relative; 
     top: 0; 
     right: 0; 
     width: 100%; 
     margin-top: 20px; 
   }
+  
+  .toggleCheck {
+    position: absolute;
+    left: -9999px;
+  }
+
+ .toggleBtn {
+  display: block;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: #dc3545;
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  font-size: 18px;
+  color: black;
+  z-index: 10000;
+  cursor: pointer;
+  pointer-events: auto;
 }
+  .toggleBtn::before {
+    content: '\2190'; 
+  }
+
+  .toggleCheck:checked ~ .toggleBtn::before {
+  content: '\2192';
+}
+  .toggleCheck:checked ~ .toggleWrapper {
+    display: none;
+  }
+}
+/* movil */ 
 @media (max-width: 460px){
     aside{
         display: none;
