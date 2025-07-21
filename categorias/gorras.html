@@ -37,108 +37,56 @@
 
   <body class="body-productos">
     <!--NAVBAR-->
-    <header class="mt-2 sticky-top">
-      <!--ESTE ESPACIO ES PARA QUE EL NAVBAR SE SEPARE DEL TOP-->
-      <div class="glass pt-2">.</div>
+    <header class="mt-2 sticky-top header-nav">
 
-      <nav class="navbar navbar-expand-lg bg1 shadow-sm d-flex">
+    <!--ESTE ESPACIO ES PARA QUE EL NAVBAR SE SEPARE DEL TOP-->
+    <div class="glass pt-2">.</div>
+
+    <nav class="navbar navbar-expand-lg bg1 shadow-sm d-flex">
+
         <!--LOGO-->
-        <div
-          class="logo-navBar order-lg-1 col-xxl-3 d-flex justify-content-center"
-        >
-          <a class="navbar-brand" href="/index.html"
-            ><img
-              src="/img/Logos/logo rc png.png"
-              alt="logo-RC"
-              class="logoNav"
-              style="width: 150px"
-          /></a>
-        </div>
+        <div class="logo-navBar order-lg-1 col-xxl-3 d-flex justify-content-center">
+          <a class="navbar-brand" href="/index.html"><img src="/img/Logos/logo rc png.png" alt="logo-RC" class="logoNav" style="width: 150px;"></a>
+        </div> 
 
-        <!--boton carrito-->
-        <div
-          class="carrito-compra mx-3 order-lg-3 col-xxl-1 d-flex justify-content-end"
-        >
-          <a href=""
-            ><i class="carrito-navbar fa-solid fa-cart-shopping fa-2x"></i
-          ></a>
-        </div>
-
-        <!--Botón hamburguesa-->
-        <button
-          class="navbar-toggler d-lg-none menu-navbar"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
-          <i class="menu-toggler fa-solid fa-bars fa-2x"></i>
-        </button>
-
-        <!--ESTE ES EL MENU CANVAS-->
-        <div
-          class="offcanvas offcanvas-end py-5 align-items-center bg2 order-lg-5 justify-content-around d-flex"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <button
-            type="button"
-            class="btn-close btn-close-dark d-lg-none align-self-end px-5"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-          <ul class="navbar-nav col-xxl-9 d-flex justify-content-between">
-            <li class="nav-item d-flex align-items-center">
-              <a class="nav-link" href="/registro.html">Registrarme</a>
-            </li>
-            <li class="nav-item d-flex align-items-center">
-              <a class="nav-link" href="/login.html">Ingresar</a>
-            </li>
-            <li class="nav-item d-flex align-items-center">
-              <a class="nav-link" href="/contacto.html">Contacto</a>
-            </li>
-            <li class="nav-item d-flex align-items-center">
-              <a class="nav-link" href="/nosotros.html">Acerca de Nosotros</a>
-            </li>
-          </ul>
-
-          <!--BARRA DE BUSQUEDA DE TABLET Y MOBILE (ESTA DENTRO DEL BOTON HAMBURGUESA)-->
-          <div class="barra-canvas form-border d-flex d-lg-none" role="search">
-            <input
-              class="form-canvas form-control-lg"
-              id="buscar"
-              placeholder="buscar"
-              type="search"
-              aria-label="Search"
-            />
-            <button class="buscar btn btn-outline-dark" type="submit">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
+          <!--boton carrito-->
+          <div class=" carrito-compra mx-3 order-lg-3 col-xxl-1 d-flex justify-content-end">
+          <a href="/carrito.html"><i class="carrito-navbar fa-solid fa-cart-shopping fa-2x"></i></a>
           </div>
-        </div>
 
-        <!--BARRA DE BUSQUEDA PARA DESKTOP-->
-        <div
-          class="barra-busqueda form-border form-floating order-lg-2 d-none d-lg-flex col-xxl-3"
-          role="search"
-        >
-          <input
-            class="form-control form-control-lg agrandar-input flex-grow-1 barra-desktop"
-            id="buscar"
-            placeholder="buscar"
-            type="search"
-            aria-label="Search"
-          />
-          <label class="py-1" for="buscar">Buscar</label>
-          <button class="buscar btn btn-outline-light" type="submit">
-            <i class="fa-solid fa-magnifying-glass"></i>
+          <!--Botón hamburguesa-->
+          <button class="navbar-toggler d-lg-none menu-navbar " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" >
+            <i class="menu-toggler fa-solid fa-bars fa-2x"></i>
           </button>
-        </div>
-      </nav>
-    </header>
-    <!-- ACA TERMINA EL NAVBAR -->
+
+          <!--ESTE ES EL MENU CANVAS-->
+          <div class="offcanvas offcanvas-end py-5 align-items-center bg2 order-lg-5 justify-content-around d-flex" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" >
+            <button type="button" class="btn-close btn-close-dark d-lg-none align-self-end px-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <ul class="navbar-nav col-xxl-9 d-flex justify-content-between">
+              <li class="nav-item d-flex align-items-center"><a class="nav-link" href="/registro.html">Registrarme</a></li>
+              <li class="nav-item d-flex align-items-center"><a class="nav-link" href="/login.html">Ingresar</a></li>
+              <li class="nav-item d-flex align-items-center"><a class="nav-link" href="/contacto.html">Contacto</a></li>
+              <li class="nav-item d-flex align-items-center"><a class="nav-link text-nowrap" href="/nosotros.html">Acerca de Nosotros</a></li>
+            </ul>
+
+            <!--BARRA DE BUSQUEDA DE TABLET Y MOBILE (ESTA DENTRO DEL BOTON HAMBURGUESA)-->
+            <div class="barra-canvas form-border d-flex d-lg-none" role="search">
+              <input class="form-canvas form-control-lg" id="buscar" placeholder="buscar" type="search" aria-label="Search"/>
+              <button class="buscar btn btn-outline-dark" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </div>
+
+          <!--BARRA DE BUSQUEDA PARA DESKTOP-->
+          <div class="barra-busqueda form-border form-floating order-lg-2 d-none d-lg-flex col-xxl-3" role="search">
+            <input class="form-control form-control-lg agrandar-input flex-grow-1 barra-desktop" id="buscar" placeholder="buscar" type="search" aria-label="Search"/>
+            <label class="py-1" for="buscar">Buscar</label>
+            <button class="buscar btn btn-outline-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        
+    </nav>
+  </header>
+   <!-- ACA TERMINA EL NAVBAR -->
+
     <main>
       <section class="text-center py-4 text-black mb-4">
         <div class="container">
@@ -289,58 +237,36 @@
 
     <!-- FOOTER -->
 
-    <footer class="row">
-      <div class="container col-12 d-flex justify-content-between bg-danger">
+    <footer class=" row">
+      <div class="contenedor-footer col-12 bg4 px-4">
+
         <!-- COLUMNA DE LOGO-->
-        <div
-          class="logo-footer d-flex col-2 justify-content-lg-center m-4 col-md-2"
-        >
-          <img src="/img/Logos/logo_pestana.png" alt="logo-rc" />
+        <div class="logo-footer d-flex col-2 justify-content-lg-center mt-3 col-lg-2 col-md-10 mb-lg-3">
+          <img src="/img/Logos/logo_pestana.png" alt="logo-rc" class="foto-footer">
         </div>
 
         <!--COLUMNA DE REDES SOCIALES-->
-        <div
-          class="redes mt-3 col-md-5 align-content-center justify-content-center text-center"
-        >
+        <div class="redes mt-3 col-lg-5 align-content-center justify-content-center text-center">
           <h2 class="fs-1">Rolling Code</h2>
 
+          <div class="redes-logo">
           <!--INSTAGRAM-->
-          <a
-            href="https://www.instagram.com/rollingcodeschool/"
-            class="btn btn-link btn-floating btn-lg text-body m-1"
-            target="_blank"
-            ><i class="fab fa-instagram fa-3x"></i
-          ></a>
+          <a href="https://www.instagram.com/rollingcodeschool/" class="btn btn-link btn-floating btn-lg text-body" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
 
           <!--FACEBOOK-->
-          <a
-            href="https://www.facebook.com/RollingCodeSchool?locale=es_LA"
-            class="btn btn-link btn-floating btn-lg text-body m-1"
-            target="_blank"
-            ><i class="fab fa-facebook fa-3x"></i
-          ></a>
+          <a href="https://www.facebook.com/RollingCodeSchool?locale=es_LA" class="btn btn-link btn-floating btn-lg text-body" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
 
           <!--LINKEDIN-->
-          <a
-            href="https://www.linkedin.com/company/rollingcodeschool/posts/?feedView=all"
-            class="btn btn-link btn-floating btn-lg text-body m-1"
-            target="_blank"
-            ><i class="fab fa-linkedin fa-3x"></i
-          ></a>
+          <a href="https://www.linkedin.com/company/rollingcodeschool/posts/?feedView=all" class="btn btn-link btn-floating btn-lg text-body" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
 
           <!--GITHUB-->
-          <a
-            href="https://github.com/rollingcodestudio"
-            class="btn btn-link btn-floating btn-lg text-body m-1"
-            target="_blank"
-            ><i class="fab fa-github fa-3x"></i
-          ></a>
+          <a href="https://github.com/rollingcodestudio" class="btn btn-link btn-floating btn-lg text-body" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+          </div>
         </div>
 
         <!--COLUMNA DE PRIVACIDAD-->
-        <div
-          class="politica-privacidad mt-3 col-md-3 text-center align-content-center"
-        >
+        <div class="politica-privacidad mt-3 col-lg-3 text-center align-content-center">
+
           <h2 class="fw-bolder">Advertencia Legal</h2>
 
           <!-- POLITICA DE PRIVACIDAD -->
@@ -408,13 +334,11 @@
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-primary"
-                    data-bs-dismiss="modal"
-                  >
-                    Acepto
-                  </button>
+                  <div class="mb-3 form-check d-flex align-items-center justify-content-start flex-grow-1">
+                    <input type="checkbox" class="form-check-input" id="check1" checked/>
+                    <label class="form-check-label mx-3" for="check1">Acepto terminos y condiciones</label>
+                  </div>
+                  <button type="button" class="btn btn-primary flex-grow-1 justify-content-center" data-bs-dismiss="modal">Continuar</button>
                 </div>
               </div>
             </div>
@@ -496,13 +420,11 @@
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-primary"
-                    data-bs-dismiss="modal"
-                  >
-                    Acepto
-                  </button>
+                  <div class="mb-3 form-check d-flex align-items-center justify-content-start flex-grow-1">
+                    <input type="checkbox" class="form-check-input" id="check1" checked/>
+                    <label class="form-check-label mx-3" for="check1">Acepto terminos y condiciones</label>
+                  </div>
+                  <button type="button" class="btn btn-primary flex-grow-1 justify-content-center" data-bs-dismiss="modal">Continuar</button>
                 </div>
               </div>
             </div>
@@ -580,13 +502,11 @@
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-primary"
-                    data-bs-dismiss="modal"
-                  >
-                    Acepto
-                  </button>
+                  <div class="mb-3 form-check d-flex align-items-center justify-content-start flex-grow-1">
+                    <input type="checkbox" class="form-check-input" id="check1" checked/>
+                    <label class="form-check-label mx-3" for="check1">Acepto terminos y condiciones</label>
+                  </div>
+                  <button type="button" class="btn btn-primary flex-grow-1 justify-content-center" data-bs-dismiss="modal">Continuar</button>
                 </div>
               </div>
             </div>
@@ -594,16 +514,8 @@
         </div>
       </div>
 
-      <div class="text-center px-4 fw-bolder bg-danger bg-gradient">
-        <p>
-          © 2025 Copyright:
-          <a
-            class="fw-bolder text-dark"
-            href="https://rollingcode.co/"
-            target="_blank"
-            >RollingCode</a
-          >
-        </p>
+      <div class="text-center px-4 fw-bolder bg4 bg-gradient">
+        <p>© 2025 Copyright: <a class="fw-bolder text-dark" href="https://rollingcode.co/" target="_blank">RollingCode</a></p>
       </div>
     </footer>
 
