@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Libreria</title>
+    <link
+      rel="shortcut icon"
+      href="/img/Logos/logo_pestana.png"
+      type="image/x-icon"
+    />
+
+    <!--LINK FONTAWESOME-->
+    <script
+      src="https://kit.fontawesome.com/669e6e4912.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--LINK DE CSS-->
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+
+  <body>
+    <!--NAVBAR-->
+    <header class="mt-2 sticky-top header-nav">
+
+    <!--ESTE ESPACIO ES PARA QUE EL NAVBAR SE SEPARE DEL TOP-->
+    <div class="glass pt-2">.</div>
+
+    <nav class="navbar navbar-expand-lg bg1 shadow-sm d-flex">
+
+        <!--LOGO-->
+        <div class="logo-navBar order-lg-1 col-xxl-3 d-flex justify-content-center">
+          <a class="navbar-brand" href="/index.html"><img src="/img/Logos/logo rc png.png" alt="logo-RC" class="logoNav" style="width: 150px;"></a>
+        </div> 
+
+          <!--boton carrito-->
+          <div class=" carrito-compra mx-3 order-lg-3 col-xxl-1 d-flex justify-content-end">
+          <a href="/carrito.html"><i class="carrito-navbar fa-solid fa-cart-shopping fa-2x"></i></a>
+          </div>
+
+          <!--Botón hamburguesa-->
+          <button class="navbar-toggler d-lg-none menu-navbar " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" >
+            <i class="menu-toggler fa-solid fa-bars fa-2x"></i>
+          </button>
+
+          <!--ESTE ES EL MENU CANVAS-->
+          <div class="offcanvas offcanvas-end py-5 align-items-center bg2 order-lg-5 justify-content-around d-flex" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" >
+            <button type="button" class="btn-close btn-close-dark d-lg-none align-self-end px-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <ul class="navbar-nav col-xxl-9 d-flex justify-content-between">
+              <li class="nav-item d-flex align-items-center"><a class="nav-link" href="/registro.html">Registrarme</a></li>
+              <li class="nav-item d-flex align-items-center"><a class="nav-link" href="/login.html">Ingresar</a></li>
+              <li class="nav-item d-flex align-items-center"><a class="nav-link" href="/contacto.html">Contacto</a></li>
+              <li class="nav-item d-flex align-items-center"><a class="nav-link text-nowrap" href="/nosotros.html">Acerca de Nosotros</a></li>
+            </ul>
+
+            <!--BARRA DE BUSQUEDA DE TABLET Y MOBILE (ESTA DENTRO DEL BOTON HAMBURGUESA)-->
+            <div class="barra-canvas form-border d-flex d-lg-none" role="search">
+              <input class="form-canvas form-control-lg" id="buscar" placeholder="buscar" type="search" aria-label="Search"/>
+              <button class="buscar btn btn-outline-dark" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </div>
+
+          <!--BARRA DE BUSQUEDA PARA DESKTOP-->
+          <div class="barra-busqueda form-border form-floating order-lg-2 d-none d-lg-flex col-xxl-3" role="search">
+            <input class="form-control form-control-lg agrandar-input flex-grow-1 barra-desktop" id="buscar" placeholder="buscar" type="search" aria-label="Search"/>
+            <label class="py-1" for="buscar">Buscar</label>
+            <button class="buscar btn btn-outline-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        
+    </nav>
+  </header>
+   <!-- ACA TERMINA EL NAVBAR -->
+
+    <main>
+      <section class="text-center py-4 bg-danger bg-gradient text-black mb-4">
+        <div class="container">
+          <h1 class="fw-bold display-3 pt-3">Libreria</h1>
+          <p class="encabezado fs-4 pt-3">Nuevos Diseños 2025</p>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-12 col-sm-6 col-lg-4 g-3">
+              <div class="card h-100 border-dark">
+                <img
+                  src="/img/merch_img/agenda_blanca.jpeg"
+                  class="img-fluid borde-card"
+                  alt="Agenda Blanca"
+                />
+                <div class="card-body mt-4 border-1">
+                  <h5 class="titulo-card text-muted m-3">Agenda Blanca</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center m-3 mt-4"
+                  >
+                    <a href="/error404.html" class="btn btn-dark">
+                      <i class="fas fa-eye me-1"></i> Ver detalle
+                    </a>
+                    <a href="#">
+                      <i class="fa-solid fa-heart fa-2x"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="col-12 col-sm-6 col-lg-4 g-3">
+              <div class="card h-100 border-dark">
+                <img
+                  src="/img/merch_img/agenda_roja.png"
+                  class="img-fluid borde-card"
+                  alt="Agenda Roja"
+                />
+                <div class="card-body mt-4">
+                  <h5 class="titulo-card text-muted align m-3">Agenda Roja</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center m-3 mt-4"
+                  >
+                    <a href="/error404.html" class="btn btn-dark">
+                      <i class="fas fa-eye me-1"></i> Ver detalle
+                    </a>
+                    <a href="#">
+                      <i class="fa-solid fa-heart fa-2x"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Producto 3 -->
+
+            <div class="col-12 col-sm-6 col-lg-4 g-3">
+              <div class="card h-100 border-dark">
+                <img
+                  src="/img/merch_img/cartuch_azul.jpeg"
+                  class="borde-card"
+                  alt="Cartuchera Azul"
+                />
+                <div class="card-body mt-3">
+                  <h5 class="titulo-card text-muted mt-4 m-3">
+                    Cartuchera Azul
+                  </h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center m-3 mt-4"
+                  >
+                    <a href="/error404.html" class="btn btn-dark">
+                      <i class="fas fa-eye me-1"></i> Ver detalle
+                    </a>
+                    <a href="#">
+                      <i class="fa-solid fa-heart fa-2x"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="d-flex justify-content-center py-5">
+        <div class="publicity-phone-products w-25">
+          <div class="phone-ad" id="phone-ad">
+            <a
+              href="https://shop.samsung.com/ar/?cid=ar_pd_ppc_google_cross_ecommerce_ao-cross_cross-cross-ecommerce-ao-cross_text_none_brand&utm_source=google&utm_medium=roas&utm_campaign=cross-cross-ecommerce-ao-cross&utm_content=text&&&&&gad_source=1&gad_campaignid=9709132959&gbraid=0AAAAADfG-fNvjMbqcXbyOLffJVpIZ-_bq&gclid=CjwKCAjwvuLDBhAOEiwAPtF0VqLjtphp842ynmRVng7BkBbPFFr34Dzh1sipls3CB1sNKjxPOLR_SxoCK8kQAvD_BwE&gclsrc=aw.ds"
+              target="_blank"
+            >
+              <h2>Super Ofertas en Samsung Flip 4</h2>
+              <img src="/img/samsung.jpg" alt="Samsung Flip 4" />
+              <p>
+                Comprando en el mes del amigo obtienes un 40% de descuento en la
+                segunda unidad!!
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center fw-bold py-5">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Anterior</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="/categorias/perifericos.html">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="/categorias/perifericos2.html">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="/categorias/perifericos3.html">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">Siguiente</a>
+          </li>
+        </ul>
+      </nav>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class=" row">
+      <div class="contenedor-footer col-12 bg4 px-4">
+
+        <!-- COLUMNA DE LOGO-->
+        <div class="logo-footer d-flex col-2 justify-content-lg-center mt-3 col-lg-2 col-md-10 mb-lg-3">
+          <img src="/img/Logos/logo_pestana.png" alt="logo-rc" class="foto-footer">
+        </div>
+
+        <!--COLUMNA DE REDES SOCIALES-->
+        <div class="redes mt-3 col-lg-5 align-content-center justify-content-center text-center">
+          <h2 class="fs-1">Rolling Code</h2>
+
+          <div class="redes-logo">
+          <!--INSTAGRAM-->
+          <a href="https://www.instagram.com/rollingcodeschool/" class="btn btn-link btn-floating btn-lg text-body" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+
+          <!--FACEBOOK-->
+          <a href="https://www.facebook.com/RollingCodeSchool?locale=es_LA" class="btn btn-link btn-floating btn-lg text-body" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+
+          <!--LINKEDIN-->
+          <a href="https://www.linkedin.com/company/rollingcodeschool/posts/?feedView=all" class="btn btn-link btn-floating btn-lg text-body" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+
+          <!--GITHUB-->
+          <a href="https://github.com/rollingcodestudio" class="btn btn-link btn-floating btn-lg text-body" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+          </div>
+        </div>
+
+        <!--COLUMNA DE PRIVACIDAD-->
+        <div class="politica-privacidad mt-3 col-lg-3 text-center align-content-center">
+
+          <h2 class="fw-bolder">Advertencia Legal</h2>
+
+          <!-- POLITICA DE PRIVACIDAD -->
+          <a
+            type="button"
+            class=""
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            Política de privacidad
+          </a>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5 col-10" id="staticBackdropLabel">
+                    Política de privacidad
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close col-2"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    En Rolling Code, tu privacidad es muy importante para
+                    nosotros. Por eso, queremos informarte de manera
+                    transparente sobre cómo recopilamos, usamos y protegemos tus
+                    datos personales. 1. Información que recopilamos Recopilamos
+                    información personal que nos proporcionas al realizar una
+                    compra, crear una cuenta o suscribirte a nuestro boletín.
+                    Esta información puede incluir: Nombre completo Dirección de
+                    envío y facturación Correo electrónico Número de teléfono
+                    Información de pago (segura y encriptada) 2. Cómo usamos tu
+                    información Usamos tus datos para: Procesar tus pedidos y
+                    pagos Enviarte actualizaciones sobre tu compra Responder a
+                    tus consultas Enviar promociones y novedades (si lo
+                    autorizas) Mejorar la experiencia de navegación en nuestra
+                    web 3. Protección de tus datos Implementamos medidas de
+                    seguridad técnicas y organizativas para proteger tu
+                    información contra accesos no autorizados, alteraciones,
+                    divulgaciones o destrucción. 4. Compartir información con
+                    terceros No compartimos tu información personal con
+                    terceros, salvo que sea necesario para procesar tu pedido
+                    (por ejemplo, empresas de transporte o servicios de pago), o
+                    por requerimiento legal. 5. Tus derechos Puedes acceder,
+                    corregir o eliminar tu información personal en cualquier
+                    momento. También puedes solicitar que dejemos de enviarte
+                    comunicaciones comerciales. 6. Cambios a esta política Nos
+                    reservamos el derecho de modificar esta Política de
+                    Privacidad en cualquier momento. Cualquier cambio será
+                    publicado en esta página con la fecha de actualización
+                    correspondiente. Última actualización: 11/07/25
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <div class="mb-3 form-check d-flex align-items-center justify-content-start flex-grow-1">
+                    <input type="checkbox" class="form-check-input" id="check1" checked/>
+                    <label class="form-check-label mx-3" for="check1">Acepto terminos y condiciones</label>
+                  </div>
+                  <button type="button" class="btn btn-primary flex-grow-1 justify-content-center" data-bs-dismiss="modal">Continuar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Política de cookies -->
+          <a
+            type="button"
+            class=""
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop2"
+          >
+            Política de cookies
+          </a>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="staticBackdrop2"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5 col-10" id="staticBackdropLabel">
+                    Política de cookies
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close col-2"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    En Rolling Code, utilizamos cookies y tecnologías similares
+                    para mejorar tu experiencia en nuestra web, analizar el
+                    tráfico y personalizar el contenido y la publicidad. Al
+                    continuar navegando, aceptas el uso de cookies en los
+                    términos establecidos en esta política. 1. ¿Qué son las
+                    cookies? Las cookies son pequeños archivos de texto que se
+                    almacenan en tu dispositivo (ordenador, móvil, tablet)
+                    cuando visitas un sitio web. Sirven para recordar tu
+                    actividad y preferencias, facilitando tu navegación en
+                    futuras visitas. 2. Tipos de cookies que utilizamos Cookies
+                    técnicas o necesarias: Son esenciales para el funcionamiento
+                    del sitio web (por ejemplo, el carrito de compras o el
+                    inicio de sesión). Cookies de preferencias: Permiten
+                    recordar tus elecciones, como el idioma o región. Cookies
+                    estadísticas: Nos ayudan a entender cómo interactúan los
+                    usuarios con la web (Google Analytics, por ejemplo). Cookies
+                    de marketing: Se usan para personalizar anuncios y medir su
+                    efectividad (Google Ads, Facebook Pixel, etc.). 3. Base
+                    legal para el uso de cookies De acuerdo con: El Reglamento
+                    (UE) 2016/679 del Parlamento Europeo y del Consejo (RGPD),
+                    artículos 6 y 7. La Directiva 2002/58/CE (Directiva
+                    ePrivacy), modificada por la Directiva 2009/136/CE. La Ley
+                    34/2002, de 11 de julio, de Servicios de la Sociedad de la
+                    Información y de Comercio Electrónico (LSSI-CE), en España.
+                    El uso de cookies no esenciales requiere tu consentimiento
+                    informado, el cual puedes gestionar o retirar en cualquier
+                    momento. 4. ¿Cómo gestionar o desactivar las cookies? Puedes
+                    configurar tu navegador para aceptar o rechazar todas las
+                    cookies, o para que te avise cuando se envíe una cookie:
+                    Chrome: https://support.google.com/chrome/answer/95647
+                    Firefox:
+                    https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies
+                    Safari:
+                    https://support.apple.com/es-es/guide/safari/sfri11471/mac
+                    Ten en cuenta que al desactivar algunas cookies, ciertas
+                    funcionalidades del sitio podrían no estar disponibles. 5.
+                    Cambios en esta política Podemos actualizar esta Política de
+                    Cookies en cualquier momento. Te recomendamos revisarla
+                    periódicamente. Última actualización: 11/07/25
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <div class="mb-3 form-check d-flex align-items-center justify-content-start flex-grow-1">
+                    <input type="checkbox" class="form-check-input" id="check1" checked/>
+                    <label class="form-check-label mx-3" for="check1">Acepto terminos y condiciones</label>
+                  </div>
+                  <button type="button" class="btn btn-primary flex-grow-1 justify-content-center" data-bs-dismiss="modal">Continuar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Política de calidad -->
+          <a
+            type="button"
+            class=""
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop3"
+          >
+            Política de calidad
+          </a>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="staticBackdrop3"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5 col-10" id="staticBackdropLabel">
+                    Política de calidad
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close col-2"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    En Rolling Code, nos comprometemos a ofrecer productos y
+                    servicios de alta calidad que satisfagan las expectativas de
+                    nuestros clientes y mejoren continuamente la experiencia de
+                    compra online. 1. Compromiso con la satisfacción del cliente
+                    La satisfacción de nuestros clientes es nuestra prioridad.
+                    Trabajamos para garantizar que: Los productos ofrecidos sean
+                    de excelente calidad, tal como se describen en nuestro
+                    sitio. Los pedidos se gestionen y entreguen de forma segura
+                    y puntual. La atención al cliente sea eficiente, cordial y
+                    oportuna. Se ofrezca un proceso de devolución y garantía
+                    claro y justo. 2. Mejora continua En Rolling Code, creemos
+                    en la mejora constante de nuestros procesos y servicios.
+                    Para ello: Recogemos y analizamos las opiniones de nuestros
+                    clientes. Implementamos medidas correctivas cuando
+                    detectamos fallos o retrasos. Capacitamos continuamente a
+                    nuestro equipo para mejorar la atención y el manejo de
+                    operaciones. 3. Cumplimiento normativo Nos aseguramos de
+                    operar bajo las leyes y regulaciones aplicables al comercio
+                    electrónico y a la protección del consumidor, incluyendo
+                    (según el país): España/EU: Ley General para la Defensa de
+                    los Consumidores y Usuarios, Directiva 2011/83/UE,
+                    Reglamento (UE) 2019/1150. México: Ley Federal de Protección
+                    al Consumidor. Argentina: Ley 24.240 de Defensa del
+                    Consumidor. Chile: Ley N° 19.496 sobre Protección de los
+                    Derechos de los Consumidores. 4. Relaciones con proveedores
+                    Solo trabajamos con proveedores y fabricantes que cumplen
+                    estándares de calidad y responsabilidad, lo que garantiza
+                    productos confiables y de origen legítimo. 5.
+                    Responsabilidad social y ambiental Nos comprometemos a
+                    operar con responsabilidad, procurando prácticas sostenibles
+                    en la selección de productos, empaques y envíos siempre que
+                    sea posible. 6. Revisión de esta política Esta Política de
+                    Calidad se revisa periódicamente para asegurar su vigencia y
+                    adaptación a los cambios del entorno y del mercado. Última
+                    actualización: 11/07/25
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <div class="mb-3 form-check d-flex align-items-center justify-content-start flex-grow-1">
+                    <input type="checkbox" class="form-check-input" id="check1" checked/>
+                    <label class="form-check-label mx-3" for="check1">Acepto terminos y condiciones</label>
+                  </div>
+                  <button type="button" class="btn btn-primary flex-grow-1 justify-content-center" data-bs-dismiss="modal">Continuar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center px-4 fw-bolder bg4 bg-gradient">
+        <p>© 2025 Copyright: <a class="fw-bolder text-dark" href="https://rollingcode.co/" target="_blank">RollingCode</a></p>
+      </div>
+    </footer>
+
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

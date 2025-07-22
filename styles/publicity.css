@@ -1,0 +1,163 @@
+.publicity-phone{
+    width:100vw;
+    height: auto;
+
+}
+.phone-ad{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.phone-ad h2,
+.phone-ad p,
+.phone-ad img{
+margin: 15px auto;
+max-width: 90%; 
+text-align: center;
+color: black;
+background-color: white;
+border-radius: 10px;
+padding: 10px;
+
+}
+.phone-ad img{
+    margin-left: 5%;
+    height: 40%;
+    width: 100%;
+}
+
+.close-ad{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 9999;
+}
+.icon_contacto{
+position: fixed;
+width: 70px;
+bottom: 2%;
+left: 4%;
+transition: all .2s ease;
+z-index: 9999;
+opacity: 60%;
+&:hover{
+    cursor: pointer;
+    filter: drop-shadow(0 0 3px black);
+    transform: rotate(10deg);
+    opacity: 100%;
+}
+}
+
+
+aside {
+  position: relative; 
+  top: 110px; 
+  right: 0; 
+  width: 100px;
+  z-index: 9999; 
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  opacity: 0.7;
+  &:hover{
+    opacity: 1;
+  }
+}
+
+.aside-index{
+  position: fixed;
+  top: 110px;
+  width: 215px;
+}
+
+aside .card {
+  text-align: center; 
+  background-color: #f8f9fa; 
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+aside img {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 5px;
+}
+.toggleCheck{
+  display: none;
+}
+.toggleBtn{
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: black;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+/* tablet */
+@media (max-width: 1280px) {
+  aside {
+     position: relative; 
+    top: 0; 
+    right: 0; 
+    width: 100%; 
+    margin-top: 20px; 
+  }
+  
+  .toggleCheck {
+    position: absolute;
+    left: -9999px;
+  }
+
+ .toggleBtn {
+  display: block;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: #dc3545;
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  font-size: 18px;
+  color: black;
+  z-index: 10000;
+  cursor: pointer;
+  pointer-events: auto;
+}
+  .toggleBtn::before {
+    content: '\2190'; 
+  }
+
+  .toggleCheck:checked ~ .toggleBtn::before {
+  content: '\2192';
+}
+  .toggleCheck:checked ~ .toggleWrapper {
+    display: none;
+  }
+}
+/* movil */ 
+@media (max-width: 460px){
+    aside{
+        display: none;
+    }
+}

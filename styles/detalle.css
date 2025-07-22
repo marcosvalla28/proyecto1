@@ -1,0 +1,18 @@
+.category-card {
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.category-card .card-img-top {
+  height: 240px;
+  object-fit: contain;
+  padding: 15px;
+  margin-top: 15px;
+
+  &:hover {
+    transform: scale(1.25);
+    transition: all 0.3s ease;
+  }
+}

@@ -1,0 +1,143 @@
+.bodyContacto {
+  background: url(/img/Logos/fondo-azul.jpg);
+}
+/* Esta es la parte del formulario de las consultas */
+.formularioPreguntas {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+}
+.formConsultas {
+  border: 3px solid rgb(38, 129, 190);
+  border-radius: 15px;
+  padding: 20px;
+  background-color: rgb(206, 183, 178);
+}
+
+.formConsultas .tituloConsultas {
+  display: flex;
+  justify-content: center;
+}
+.formConsultas .texareaConsulta textarea {
+  width: 100%;
+  height: 220px;
+  resize: none;
+}
+.tituloConsultas {
+  font-weight: bolder;
+}
+.botonesConsultas {
+  display: flex;
+  justify-content: space-between;
+}
+.botonesConsultas a {
+  text-decoration: none;
+  margin-top: 20px;
+}
+.botonesConsultas .botonEnviar {
+  color: blue;
+  &:hover {
+    color: rgb(115, 226, 93);
+    transition: transform 0.3s, box-shadow 0.4s;
+    cursor: pointer;
+  }
+}
+
+.botonesConsultas .botonCancelar {
+  color: blue;
+  &:hover {
+    color: rgb(206, 25, 19);
+    transition: transform 0.3s, box-shadow 0.4s;
+    cursor: pointer;
+  }
+}
+
+/* Esta es la parte de los logos de las redes  */
+.redesContacto {
+  justify-content: center;
+  text-align: center;
+  margin: 60px;
+}
+.redesContacto a {
+  &:hover {
+    transform: scale(1.08);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    border-color: #78c7d3;
+    transition: transform 0.4s, box-shadow 0.4s;
+    cursor: pointer;
+  }
+  margin-left: 20px;
+}
+/* Esta es la parte del iframe con la direccion */
+.SecIframe-Direc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.Info-dire {
+  border: solid 2px;
+  margin: 30px;
+  border-radius: 16px;
+  padding: 10px;
+  padding-top: 50px;
+  text-align: center;
+  background: url(/img/edificio.png) no-repeat;
+  background-size: cover;
+  &:hover {
+    transform: scale(1.08);
+    box-shadow: 0 4px 8px rgba(26, 25, 25, 0.8);
+    border-color: #e73922;
+    transition: transform 0.4s, box-shadow 0.4s;
+  }
+}
+
+.Info-dire h3{
+  margin-bottom: 30px;
+}
+
+.iframe {
+  border-radius: 16px;
+}
+.Info-dire .pe {
+  font-weight: 700;
+  font-size: medium;
+  padding: 10px;
+}
+.iframe-dire {
+  border: solid 3px;
+  border-radius: 20px;
+  display: flex;
+}
+
+/* Responsive */
+
+/* TABLETS */
+@media (max-width: 1024px) {
+  .SecIframe-Direc {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .iframe {
+    width: 600px;
+    height: 500px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+  .SecIframe-Direc {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .iframe {
+    width: 300px;
+    height: 350px;
+  }
+}

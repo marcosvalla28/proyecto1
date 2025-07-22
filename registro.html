@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce-RRCS</title>
+
+    <!--LINK FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/669e6e4912.js" crossorigin="anonymous"></script>
+    <!-- AOS -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+     <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+      <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    
+</head>
+<body class="form-body bg3">
+  
+  <div class="form-containter-reg" data-aos="flip-up">
+    <form action="register-form">
+
+    <h1 class="register-form-title text-danger fw-bolder">Registrarse</h1>
+
+    <div class="form-row-reg">
+      <div class="form-group-reg form-floating py-2">
+        <input required min="3" maxlength="20" pattern="[A-Z][a-z]{3,30}" type="text" name="nombre-persona" id="nombre-persona" class="form-control register-form-ctrl" placeholder="Tu Nombre">
+        <label for="nombre-persona" class="registro-label">Nombre</label>
+      </div>
+
+    <div class="form-group-reg form-floating py-2">
+      <input required min="3" maxlength="20" pattern="[A-Z][a-z]{3,30}" type="text" name="apellido-persona" id="apellido-persona" class="form-control register-form-ctrl" placeholder="Tu Apellido">
+      <label for="apellido-persona" class="registro-label">Apellido</label>
+    </div>
+    </div>
+
+    <div class="form-row-reg">
+      <div class="form-group-reg form-floating py-2">
+        <input required min="5" maxlength="20" pattern="^(?=.*\d)[a-z0-9._]+$" type="text" name="nombre-usuario" id="nombre-usuario" class="form-control register-form-ctrl" placeholder="Tu Usuario">
+        <label for="nombre-usuario" class="registro-label">Nombre de usuario</label>
+      </div>
+
+      <div class="form-group-reg form-floating py-2">
+        <input type="text" name="email-persona" id="email-persona" class="form-control register-form-ctrl" required minlength="5" maxlength="30" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="Tu Email">
+        <label for="email-persona" class="registro-label">Email</label>
+      </div>
+    </div>
+
+    <div class="form-row-reg">
+      <div class="form-group-reg form-floating py-2">
+        <input type="number" name="telefono-usuario" id="telefono-usuario" class="form-control register-form-ctrl" required placeholder="Tu Teléfono">
+        <label for="telefono-usuario" class="registro-label">Teléfono</label>
+      </div>
+
+      <div class="form-group-reg form-floating py-2">
+        <input type="text" name="direccion-persona" id="direccion-persona" class="form-control register-form-ctrl" required minlength="5" maxlength="80" pattern="^[a-zA-Z0-9\s.,'#\-\/]{5,200}$" placeholder="Tu Direccion">
+        <label for="direccion-persona" class="registro-label">Direccion</label>
+      </div>
+    </div>
+
+    <div class="form-row-reg">
+      <div class="form-group-reg form-floating py-2">
+        <input type="number" name="codigoPostal-persona" id="codigoPostal-persona" min="3" max="10" class="form-control register-form-ctrl" required pattern="^\d{4}$" placeholder="Tu CP">
+        <label for="codigoPostal-persona" class="registro-label">Código postal</label>
+      </div>
+
+      <div class="form-group-reg form-floating py-2">
+        <input type="password" name="contraseña-persona" id="contraseña-persona" class="form-control register-form-ctrl" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$" placeholder="Tu Contraseña">
+        <label for="contraseña-persona" class="registro-label">Contraseña</label>
+      </div>
+    </div>
+
+    <div class="tiene-cuenta">
+                <p class="text-light">¿Ya tienes una cuenta?</p>
+                <a href="/login.html" class="iniciar-sesion-2 fw-bold mx-3">Iniciar sesión</a>
+    </div>
+
+    <div class="form-buttons">
+      <a href="/index.html" class="cancel-button">Cancelar</a>
+      <button type="submit" class="submit-button"><a href="/error404.html" class="text-light">Enviar</a></button>
+    </div>
+
+  </form>
+  </div>
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+    
+
+
+        <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+  AOS.init();
+</script>
+</body>
+</html>
