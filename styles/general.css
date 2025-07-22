@@ -61,23 +61,5 @@ flex-grow: 1
     background-color: var(--rojo);
 }
 
-.ct1{
-    color: #faf7f3;
-}
 
-.ct2{
-    color: #212121;
-}
 
-.ct3{
-    color: #2a1458;
-}
-
-.ct4{
-    color: #000000;
-}
-
-.carousel-item{
-    height: 500px;
-    align-items: center;
-}
